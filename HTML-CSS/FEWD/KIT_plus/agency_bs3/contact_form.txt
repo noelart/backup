@@ -1,0 +1,1 @@
+To work contact form requires a web server with php, php files are located in the folder assets/includes/*.php

@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<!-- saved from url http://www.bootstraptor.com ##########################################################################
+Don't remove this attribution!
+This template build on Bootstrap 3 Developer  Kit v.3.0. by @Bootstraptor
+Built with Bootstrap 3.0. stable version/ part of Bootstraptor KIT
+Read usage license on for this template on http://www.bootstraptor.com 
+##########################################################################
+-->
+<html lang="en">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Base landing page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+<!-- Le styles -->
+<!-- Latest compiled and minified CSS BS 3.0. latest minifined -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<!-- /GOOGLE FONT-->
+<link href="http://fonts.googleapis.com/css?family=Comfortaa:400,300,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800" rel="stylesheet" type="text/css">
+
+
+<style>
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+		font-family: 'Comfortaa', cursive;
+}
+
+.navbar-inverse{
+	text-shadow: 0 -1px 0 rgba(0,0,0,.15);
+	background-color: #7a62d3;
+	border-color: rgba(50,50,50, 0.25);
+	box-shadow: 0 1px 0 rgba(255,255,255,.1);
+}
+.navbar-inverse .navbar-nav>li>a {
+color: #fff;
+}
+.navbar-inverse .navbar-brand {
+color: #fff;
+}
+
+
+.jumbotron{
+	background:#7a62d3;
+	color:#fff;
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+	border-radius:0px;
+	margin-bottom:0px;
+}
+
+
+
+#foot-sec .jumbotron{
+	margin-bottom:0px;
+}
+.jumbotron h1{
+	font-size:44px;
+}
+.jumbotron .list-unstyled{
+	font-size:16px;
+	line-height:26px !important;
+	font-weight:600;
+}
+.jumbotron .regular {
+	font-size:14px;
+}
+.jumbotron label {
+	font-size:14px;
+}
+
+.jumbotron .panel{
+	color:#333;
+}
+
+header{
+	padding-top:40px;
+	padding-bottom:40px;
+	margin-bottom:-110px;
+	  }
+.page-header h2 {
+	font-size: 46px;
+	line-height: 60px;
+	font-weight: 300;
+}
+	  
+section {	
+	margin-bottom:40px;
+	padding-top:40px;
+	margin-top:-40px;
+	min-height:400px;
+	width:100%;
+	min-width:100%;
+}	
+	  
+.page-header-custom{
+	margin-top:20px;
+}
+
+	@media (max-width: 768px) {
+		.container{
+			padding-right:20px;
+			padding-left:20px;
+		}
+	}
+</style>
+
+
+
+<!-- FontAwesome icons -->
+<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+<!--[if lt IE 7]>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+	<![endif]-->
+    <!-- Fav and touch icons -->
+
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+</head>
+<!-- /HEAD-->
+  <body data-spy="scroll" data-target=".navbar">
+
+<nav id="topnav" class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+		<div class="container">
+	  <!-- Brand and toggle get grouped for better mobile display -->
+	  <div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+		  <span class="sr-only">Toggle navigation</span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#">BootLander BS 3.0.</a>
+	  </div>
+
+	  <!-- Collect the nav links, forms, and other content for toggling -->
+	  <div class="collapse navbar-collapse navbar-ex1-collapse">
+		<ul class="nav navbar-nav">
+		    <li class="active"><a href="#top-section">Home</a></li>
+			<li><a href="#Section-1">Section-1</a></li>
+			<li><a href="#Section-2">Section-2</a></li> 
+			<li><a href="#foot-sec">Footer</a></li>
+		</ul>
+		<div class="nav navbar-nav navbar-right">
+		   <a class="btn btn-danger navbar-btn">Sign up</a> 
+		   <a class="btn btn-success navbar-btn">Sign in</a> 
+		</div>
+	</div><!-- /.navbar-collapse --> 
+	</div>	
+</nav>
+
+   
+ <!-- HEADER -->  
+ <header id="top-section">
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="jumbotron">
+		<div class="container">
+			<div class="row">
+			
+			
+				<!--  description-->
+				<div class="text-left col-sm-6 col-lg-6" style="padding-right:30px;">
+					<h1 class="">CALL TO ACTION!</h1>
+					<hr>
+					<p>This template built with Bootstrap 3.0. version. Flat style look catchy Lead paragraph. Donec id elit non mi porta gravida at eget metus. This template built with Bootstrap 3.0. version. </p>
+					
+					
+					<!-- list-->
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+								<ul class="list-unstyled">
+									<li><i class="icon-ok-sign"></i> Feature title goes here</li>
+									<li><i class="icon-ok-sign"></i> Feature title goes here</li>
+									<li><i class="icon-ok-sign"></i> Feature title goes here</li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+								<ul class="list-unstyled">
+									<li><i class="icon-ok-sign"></i> Feature title goes here</li>
+									<li><i class="icon-ok-sign"></i> Feature title goes here</li>
+									<li><i class="icon-ok-sign"></i> Feature title goes here</li>
+								</ul>
+							</div>
+						</div>
+						<!-- /list-->
+						<hr>
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+								<a href="#" class="btn btn-default" style="margin-bottom:30px;"><i class="icon-play-sign"></i> Watch the demo video </a>
+							</div>
+						</div>
+					
+				</div>
+				<!-- / description-->
+				<!--  FORM-->
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="panel">
+					<div class="panel-heading text-center ">
+						SIGN UP FOR FREE NOW!
+					</div>
+						<div class="panel-body">
+							<form>
+							  <fieldset>
+								<div class="form-group">
+								  <label for="exampleInputEmail">Email address</label>
+								  <input type="text" class="form-control" id="exampleInputEmail" placeholder="Enter email">
+								</div>
+								<div class="form-group">
+								  <label for="exampleInputPassword">Password</label>
+								  <input type="password" class="form-control" id="exampleInputPassword" placeholder="Password">
+								</div>
+								<button type="submit" class="btn btn-success btn-lg btn-block">Sign Up Free</button>
+							  </fieldset>
+							</form>
+						</div>
+					<div class="panel-footer">
+						<p class="text-center"><small>No credit card required</small></p>
+					</div>
+					</div>
+				</div>
+				<!-- / FORM -->
+			</div><!-- /ROW-->
+		</div>
+      </div>
+	</header>
+<!-- / HEADER -->
+
+
+<!--  SECTION-1 -->  
+<section id="Section-1">
+<div class="well" style="margin-top:0px; padding-top:30px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+				 <p><em>CLIENT LOGO</em></p>
+			</div>			
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+				 <p><em>CLIENT LOGO</em></p>
+			</div>			
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+				 <p><em>CLIENT LOGO</em></p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+				 <p><em>CLIENT LOGO</em></p>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="container">
+	<div class="row">
+		<div class="col-12 col-lg-12 page-header page-header-custom text-center" style="margin-top:0px;">
+			<h2>Your marketing awesome tagline goes here! Promote your products like never before!</h2>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 page-header page-header-custom text-center">
+			<h3>WHAT PEOPLE SAY ABOUT YOUR PRODUCT</h3>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<blockquote>
+			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+			  <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+			</blockquote>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<blockquote>
+			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+			  <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+			</blockquote>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<blockquote>
+			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+			  <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+			</blockquote>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<blockquote>
+			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+			  <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+			</blockquote>
+		</div>
+	</div>
+	
+			<div class="row">
+			<!-- here some FEATURE for mobile - first span6 have class="pull-right"   when it on mobile, than it shows on top -->	
+				<div class="pull-right col-xs-12 col-sm-12 col-md-12 col-lg-5">
+						<img class="img-responsive"  src="images/ipad2.png" alt="" />
+				</div>
+
+				<!--  description-->
+				<div class="text-left col-xs-12 col-sm-12 col-md-12 col-lg-7" style="padding-right:30px;">
+					<h3 class="">High-Performance Landing Pages</h3>
+					<hr>
+					
+					<p class="lead">
+						This template built with Bootstrap 3.0. version.  Flat style look catchy Lead paragraph. Donec id elit non mi porta gravida at eget metus. This template built with Bootstrap 3.0. version.  Flat style look catchy Lead paragraph. Donec id elit non mi porta gravida at eget metus.
+					</p>
+					<p class="">
+						This template built with Bootstrap 3.0. version.  Flat style look catchy Lead paragraph. Donec id elit non mi porta gravida at eget metus. This template built with Bootstrap 3.0. version.  Flat style look catchy Lead paragraph. Donec id elit non mi porta gravida at eget metus.
+					</p>
+				
+						<!-- list-->
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+								<ul>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+								<ul>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+								</ul>
+							</div>
+						</div>
+						<!-- /list-->
+				
+				</div>
+				<!-- / description-->
+				
+			</div><!-- /ROW-->
+			
+    <!-- Example row of columns -->
+	</div>
+	<hr>
+	<div class="container">
+			<div class="row">
+			<!-- here some FEATURE for mobile - first span6 have class="pull-right"   when it on mobile, than it shows on top -->	
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<img class="img-responsive"  src="images/ipad2.png" alt="" />
+				</div>
+				<!--  description-->
+				<div class="text-left col-sm-6 col-lg-6" style="padding-right:30px;">
+					<h3 class="">High-Performance Landing Pages</h3>
+					<hr>
+					
+					<p class="">
+						This template built with Bootstrap 3.0. version.  Flat style look catchy Lead paragraph. Donec id elit non mi porta gravida at eget metus. This template built with Bootstrap 3.0. version.  Flat style look catchy Lead paragraph. Donec id elit non mi porta gravida at eget metus.
+					</p>
+					<p class="">
+						This template built with Bootstrap 3.0. version.  Flat style look catchy Lead paragraph. Donec id elit non mi porta gravida at eget metus. This template built with Bootstrap 3.0. version.  Flat style look catchy Lead paragraph. Donec id elit non mi porta gravida at eget metus.
+					</p>
+					
+					<hr>
+						<!-- list-->
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+								<ul>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+								<ul>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+								</ul>
+							</div>
+						</div>
+						<!-- /list-->
+				
+				</div>
+				<!-- / description-->
+				
+				
+				
+			</div><!-- /ROW-->
+			
+    <!-- Example row of columns -->
+	</div>
+	<hr>
+	<div class="container">
+			<div class="row">
+			<!-- here some FEATURE for mobile - first span6 have class="pull-right"   when it on mobile, than it shows on top -->	
+				<div class="pull-right col-xs-12 col-sm-12 col-md-12 col-lg-5">
+						<img class="img-responsive"  src="images/ipad2.png" alt="" />
+				</div>
+
+				<!--  description-->
+				<div class="text-left col-xs-12 col-sm-12 col-md-12 col-lg-7" style="padding-right:30px;">
+					<h3 class="">High-Performance Landing Pages</h3>
+					<hr>
+					
+					<p class="lead">
+						This template built with Bootstrap 3.0. version.  Flat style look catchy Lead paragraph. Donec id elit non mi porta gravida at eget metus. This template built with Bootstrap 3.0. version.  Flat style look catchy Lead paragraph. Donec id elit non mi porta gravida at eget metus.
+					</p>
+					<p class="">
+						This template built with Bootstrap 3.0. version.  Flat style look catchy Lead paragraph. Donec id elit non mi porta gravida at eget metus. This template built with Bootstrap 3.0. version.  Flat style look catchy Lead paragraph. Donec id elit non mi porta gravida at eget metus.
+					</p>
+				
+						<!-- list-->
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+								<ul>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+								<ul>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+									<li>Feature title goes here</li>
+								</ul>
+							</div>
+						</div>
+						<!-- /list-->
+				
+				</div>
+				<!-- / description-->
+				
+			</div><!-- /ROW-->
+			<hr>
+    <!-- Example row of columns -->
+	</div>
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="row">
+						<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-9">
+							<p class="lead">HERE GOES YOUR ACTION SLOGAN! BUY OUR AWESOME PRODUCT RIGHT NOW! OR TRY PRO VERSION FOR FREE!</p>
+						</div> 
+						<div class=" text-center col-xs-12 col-sm-12 col-md-12 col-lg-3">
+							<a class="btn  btn-danger btn-block btn-lg" href="#" title="">Sign up now!</a>
+						</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<!-- /container -->
+	
+	<div class="container">
+	<div class="row">
+        <div class="col-sm-4 col-lg-4">
+
+       <h3>Feature Heading</h3>
+          <p>    <i class="icon-desktop"></i>  Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="http://www.bootstraptor.com">View details »</a></p>
+        </div>
+        <div class="col-sm-4 col-lg-4">
+          <h3>Feature Heading</h3>
+          <p>    <i class="icon-desktop "></i>   Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="http://www.bootstraptor.com">View details »</a></p>
+       </div>
+        <div class="col-sm-4 col-lg-4">
+          <h3>Feature Heading</h3>
+          <p>    <i class="icon-desktop "></i>   Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="http://www.bootstraptor.com">View details »</a></p>
+        </div>
+	</div>
+
+	<div class="row">
+        <div class="col-sm-4 col-lg-4">
+          <h3>Feature Heading</h3>
+          <p>   <i class="icon-desktop "></i>   Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="http://www.bootstraptor.com">View details »</a></p>
+        </div>
+        <div class="col-sm-4 col-lg-4">
+          <h3>Feature Heading</h3>
+          <p>    <i class="icon-desktop "></i>   Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="http://www.bootstraptor.com">View details »</a></p>
+       </div>
+        <div class="col-sm-4 col-lg-4">
+          <h3>Feature Heading</h3>
+          <p>   <i class="icon-desktop "></i>   Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="http://www.bootstraptor.com">View details »</a></p>
+        </div>
+	</div>
+</div><!-- / CONTAINER-->
+</section>
+
+<!-- / SECTION-1 -->
+
+<!-- SECTION-2 -->
+<section id="Section-2">
+<div class="jumbotron">
+	<div class="container">
+
+   <div class="row">
+		<div class="page-header text-center col-sm-12 col-lg-12">
+			<h2>Section-2 Here goes main sub-title slogan h2</h2>
+		</div> 
+	</div>	
+</div><!-- / CONTAINER-->
+		<div class="container">
+	  <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-sm-4 col-lg-4">
+			<div class="thumbnail">
+				<img class="img-responsive"  src="images/thumb.jpg" alt="thumb">
+			</div>
+          <h3>Feature Heading</h3>
+          <p class="regular">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="http://www.bootstraptor.com">View details »</a></p>
+        </div>
+        <div class="col-sm-4 col-lg-4">
+			<div class="thumbnail">
+				<img class="img-responsive"  src="images/thumb.jpg" alt="thumb">
+			</div>
+          <h3>Feature Heading</h3>
+          <p class="regular">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="http://www.bootstraptor.com">View details »</a></p>
+       </div>
+        <div class="col-sm-4 col-lg-4">
+			<div class="thumbnail">
+				<img class="img-responsive"  src="images/thumb.jpg" alt="thumb">
+			</div>
+          <h3>Feature Heading</h3>
+          <p class="regular">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="http://www.bootstraptor.com">View details »</a></p>
+        </div>
+      </div>
+	   <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-sm-4 col-lg-4">
+			<div class="thumbnail">
+				<img class="img-responsive"  src="images/thumb.jpg" alt="thumb">
+			</div>
+          <h3>Feature Heading</h3>
+          <p class="regular">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="http://www.bootstraptor.com">View details »</a></p>
+        </div>
+        <div class="col-sm-4 col-lg-4">
+			<div class="thumbnail">
+				<img class="img-responsive"  src="images/thumb.jpg" alt="thumb">
+			</div>
+          <h3>Feature Heading</h3>
+          <p class="regular">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="http://www.bootstraptor.com">View details »</a></p>
+       </div>
+        <div class="col-sm-4 col-lg-4">
+			<div class="thumbnail">
+				<img class="img-responsive"  src="images/thumb.jpg" alt="thumb">
+			</div>
+          <h3>Feature Heading</h3>
+          <p class="regular">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="http://www.bootstraptor.com">View details »</a></p>
+        </div>
+      </div>
+	  
+	</div><!-- / CONTAINER-->
+	</div>
+ </section> 
+ <!-- / SECTION-2 -->
+ 
+ <!-- SECTION-3 -->
+<section id="Section-3">
+<div class="container">
+	
+	<div class="row">
+		<div class="page-header text-center col-sm-12 col-lg-12">
+			<h2>Section-3 Here goes main sub-title slogan h2</h2>
+		</div> 
+	</div>	
+	
+      <!-- Example row of columns -->
+  <div class="row">
+	
+	<!-- ITEM-->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="row">
+				<div class="text-center col-sm-2 col-lg-2">
+					<i class="icon-tablet icon-3x"></i>
+				</div>
+				<div class="col-sm-10 col-lg-10">
+					<p>     Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				</div>
+			</div>
+		</div>
+	<!-- / ITEM-->
+	
+	<!-- ITEM-->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="row">
+				<div class="text-center col-sm-2 col-lg-2">
+					<i class="icon-tablet icon-3x"></i>
+				</div>
+				<div class="col-sm-10 col-lg-10">
+					<p>     Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				</div>
+			</div>
+		</div>
+	<!-- / ITEM-->
+
+	<!-- ITEM-->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="row">
+				<div class="text-center col-sm-2 col-lg-2">
+					<i class="icon-tablet icon-3x"></i>
+				</div>
+				<div class="col-sm-10 col-lg-10">
+					<p>     Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				</div>
+			</div>
+		</div>
+	<!-- / ITEM-->
+
+	<!-- ITEM-->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="row">
+				<div class="text-center col-sm-2 col-lg-2">
+					<i class="icon-tablet icon-3x"></i>
+				</div>
+				<div class="col-sm-10 col-lg-10">
+					<p>     Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				</div>
+			</div>
+		</div>
+	<!-- / ITEM-->
+	
+<!-- ITEM-->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="row">
+				<div class="text-center col-sm-2 col-lg-2">
+					<i class="icon-tablet icon-3x"></i>
+				</div>
+				<div class="col-sm-10 col-lg-10">
+					<p>     Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				</div>
+			</div>
+		</div>
+	<!-- / ITEM-->
+	
+	<!-- ITEM-->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="row">
+				<div class="text-center col-sm-2 col-lg-2">
+					<i class="icon-tablet icon-3x"></i>
+				</div>
+				<div class="col-sm-10 col-lg-10">
+					<p>     Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				</div>
+			</div>
+		</div>
+	<!-- / ITEM-->
+
+	<!-- ITEM-->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="row">
+				<div class="text-center col-sm-2 col-lg-2">
+					<i class="icon-tablet icon-3x"></i>
+				</div>
+				<div class="col-sm-10 col-lg-10">
+					<p>     Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				</div>
+			</div>
+		</div>
+	<!-- / ITEM-->
+
+	<!-- ITEM-->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="row">
+				<div class="text-center col-sm-2 col-lg-2">
+					<i class="icon-tablet icon-3x"></i>
+				</div>
+				<div class="col-sm-10 col-lg-10">
+					<p>     Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				</div>
+			</div>
+		</div>
+	<!-- / ITEM-->
+		
+		
+</div>
+<hr>
+ <div class="row">
+		<div class="page-header text-center col-sm-12 col-lg-12">
+			<h3 style="text-transform:uppercase;">Here goes main sub-title slogan h3</h3>
+		</div> 
+	</div>	
+<div class="row">
+	
+	<!-- ITEM -->
+	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <p>    <i class="icon-desktop "></i>  Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+		  <hr>
+    </div>
+	<!-- ITEM -->
+
+	<!-- ITEM -->
+	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <p>    <i class="icon-desktop "></i>  Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+		  <hr>
+    </div>
+	<!-- ITEM -->
+
+	<!-- ITEM -->
+	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <p>    <i class="icon-desktop "></i>  Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+		  <hr>
+    </div>
+	<!-- ITEM -->
+
+	<!-- ITEM -->
+	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <p>    <i class="icon-desktop "></i>  Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+		  <hr>
+    </div>
+	<!-- ITEM -->
+  </div>
+</div><!-- / CONTAINER-->
+
+</section> 
+ <!-- / SECTION-2 -->
+      
+<!-- FOOTER -->
+    <footer id="foot-sec">
+		<div class="jumbotron">
+			<div class="row">
+				<div class="text-center col-sm-12 col-lg-12">
+				<p class="lead">HERE GOES YOUR CALL TO ACTION SLOGAN! BUY OUR AWESOME PRODUCT RIGHT NOW!</p>
+				   <p><a class="btn btn-lg btn-danger" href="http://www.bootstraptor.com">BUY PRODUCT NOW!</a></p>
+				   <hr>
+				   <p>© 2013 Built with <a class="" href="http://www.bootstraptor.com">www.bootstraptor.com</a></p>
+				</div>
+			</div>
+		</div>
+    </footer>
+<!-- / FOOTER -->
+   
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js" type="text/javascript"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- PAGE CUSTOM SCROLLER -->
+<script type="text/javascript" src="assets/js/jquery.nicescroll.min.js"></script>
+
+<script src="assets/js/jquery.parallax-1.1.3.js" type="text/javascript" ></script>
+<script src="assets/js/jquery.localscroll-1.2.7-min.js" type="text/javascript" ></script>
+<script src="assets/js/jquery.scrollTo-1.4.6-min.js" type="text/javascript" ></script>
+
+<!-- responsive video-->
+<script src="assets/js/jquery.fitvids.min.js" type="text/javascript"></script>
+<script>
+        // Basic FitVids Test
+        jQuery(".container").fitVids();
+          
+</script>
+<!-- / responsive video-->
+
+<script>
+jQuery(document).ready(function(){
+	jQuery('#topnav').localScroll({offset: {top:0}});
+	jQuery('#startbtn').localScroll(5000);
+	//.parallax(xPosition, speedFactor, outerHeight) options:
+	//xPosition - Horizontal position of the element
+	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+	//jQuery('#top-section').parallax("50%", 0.1);
+	//jQuery('#Section-1').parallax("50%", 0.3);
+	//jQuery('#Section-2').parallax("50%", 0.1);
+	//jQuery('#foot-sec').parallax("50%", 0.1);
+
+})
+</script>
+
+<script>
+//hide menu after click on mobile
+jQuery('.navbar .nav > li > a').click(function(){
+		jQuery('.navbar-collapse.navbar-ex1-collapse.in').removeClass('in').addClass('collapse').css('height', '0');
+
+		});
+</script>
+<!-- NICE Scroll plugin -->
+<script>
+//scroll bar custom
+	jQuery(document).ready(
+  function() {  
+    jQuery("html").niceScroll({cursorcolor:"#333"});
+  }
+);
+</script>
+<!-- saved from url http://www.bootstraptor.com ==========================
+Don't remove this attribution!
+This template build on Bootstrap 3 Developer  Kit v.2.0. by @Bootstraptor
+Read usage license on http://www.bootstraptor.com 
+@BOOTSTRAPTOR TEMPLATE SUPORT:
+Support & commercial usage license contact: dogserega@gmail.com
+--------------------------------------------------------
+Bootstraptor 3.0. - templates - themes  - skins  
+ usage licenses here http://www.bootstraptor.com <==
+---------------------------------------------------------
+
+Uprgader 2.3.* => 3.0. service Bootstrap 3.0. online update service free http://bootstrap3.kissr.com/
+Update Bootstrap 2.3.* to Bootstrap 3.0. online http://bootstrap3.kissr.com/
+follow for templates updates & new releases on Twitter.com/Bootstraptor
+##########################################################################-->
+
+</body>
+</html>

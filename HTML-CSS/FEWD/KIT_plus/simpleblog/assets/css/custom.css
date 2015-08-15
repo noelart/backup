@@ -1,0 +1,22 @@
+body{
+ padding-top:40px;   
+}
+.thumbnail.custom-thumb{
+     display:inline-block; 
+     margin-bottom:30px;
+}
+.thumbnail.custom-thumb img{
+    width:30%;
+    height:auto;
+    float:left;
+}
+.thumbnail.custom-thumb .caption {
+     max-width:70%;
+    float:left;
+    padding-left:20px;
+
+}
+.image100{
+    height:100px;
+    width:100px;
+}

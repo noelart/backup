@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<!-- saved from url http://www.bootstraptor.com ##########################################################################
+Don't remove this attribution!
+This template build on Bootstrap Templates Starter  Kit v.2.0. by @Bootstraptor
+Built with Bootstrap 3.0. stable version/ part of Bootstraptor KIT
+Read usage license on for this template on http://www.bootstraptor.com 
+##########################################################################
+-->
+<html lang="en">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Base landing page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+<!-- Le styles -->
+<!-- Latest compiled and minified CSS BS 3.0. latest minifined 
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">-->
+<link href="assets/css/theme.css" rel="stylesheet">
+
+<!-- /GOOGLE FONT-->
+<link href="http://fonts.googleapis.com/css?family=Comfortaa:400,300,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800" rel="stylesheet" type="text/css">
+
+
+<style>
+body{
+	font-family: 'Open Sans', serif;
+	padding-top:80px;
+
+}
+.container{
+	max-width:1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+		font-family: 'Comfortaa', cursive;
+}
+
+.navbar{
+	min-height:80px;
+}
+
+.nav>li>a, .navbar-brand {
+	padding: 40px 15px 20px;
+	text-transform:uppercase;
+	font-size:18px;
+	
+}
+
+.bg-shine{
+	background: url(images/bg-shine.png) center bottom no-repeat;
+	background-size:100% 100%;
+	padding-top:50px;
+	margin-bottom:40px;
+
+}
+
+.navbar-brand {
+	padding: 0px 15px 0px;
+	text-transform:uppercase;
+	
+}
+
+.navbar-brand{
+	margin-right:22px;
+	font-weight:600;
+}
+.navbar-default{
+	background:#fff;
+}
+.navbar-default .navbar-nav>li>a{
+	border-top:2px solid transparent;
+	color:#7C4A8C;
+	font-weight:600;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus {
+color:#7C4A8C;
+border-top:2px solid #7C4A8C;
+background: none;
+}
+
+.navbar .navbar-nav > .active > a {
+	box-shadow: none;
+}
+
+
+#top-section .jumbotron{
+	overflow:hidden;
+	padding-bottom:0px;
+	-webkit-box-shadow: 0px -30px 40px rgba(0,0,0, .1) inset;
+		-moz-box-shadow: 0px -30px 40px rgba(0,0,0, .1) inset;
+			box-shadow: 0px -30px 40px rgba(0,0,0, .1) inset;
+			border-bottom:2px solid rgba(0,0,0, .6);
+}
+
+
+.jumbotron{
+	background: #292C37; /*#7C4A8C;*/
+	color:#fff;
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+	border-radius:0px;
+	margin-bottom:0px;
+}
+
+
+.text-info{
+	color:#7C4A8C;
+}
+
+#foot-sec .jumbotron{
+	margin-bottom:0px;
+}
+.jumbotron h1{
+	font-size:44px;
+}
+.jumbotron .list-unstyled{
+	font-size:16px;
+	line-height:26px !important;
+	font-weight:600;
+}
+.jumbotron .regular {
+	font-size:14px;
+}
+.jumbotron label {
+	font-size:14px;
+}
+
+.jumbotron .panel{
+	color:#333;
+}
+
+header{
+	
+	padding-bottom:40px;
+	margin-bottom:-110px;
+	  }
+.page-header h2 {
+	font-size: 46px;
+	line-height: 60px;
+	font-weight: 300;
+}
+	  
+section {	
+	margin-bottom:40px;
+	padding-top:40px;
+	margin-top:-40px;
+	width:100%;
+	min-width:100%;
+}
+
+#carousel-example-generic1 .carousel-inner{
+	height:400px;
+}	
+
+.carousel-control.right,
+.carousel-control.left{
+	position: absolute;
+	top: 35%;
+	width: 25px;
+	height:60px;
+	background-image:none;
+	background:#7C4A8C;
+	-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+			border-radius: 5px;
+}
+.carousel-control.left{
+	-webkit-box-shadow: -4px 0px 0px rgba(0,0,0, .3) inset;
+		-moz-box-shadow: -4px 0px 0px rgba(0,0,0, .3) inset;
+			box-shadow: -4px 0px 0px rgba(0,0,0, .3) inset;
+	
+}
+
+.carousel-control.right{
+	-webkit-box-shadow: 4px 0px 0px rgba(0,0,0, .3) inset;
+		-moz-box-shadow: 4px 0px 0px rgba(0,0,0, .3) inset;
+			box-shadow: 4px 0px 0px rgba(0,0,0, .3) inset;
+}
+
+#carousel-example-generic1 .carousel-indicators {
+position: absolute;
+top: 0px;
+left: auto;
+right:0%;
+z-index: 15;
+width: 30%;
+margin-left: auto;
+padding-left: 0;
+list-style: none;
+text-align: right;
+}
+
+
+
+/* HOW IT WORK WIZARD */
+
+.nav-tabs.wizard > li{
+	width:33.3%;
+	text-align:center;
+	color:#7C4A8C;
+	position:relative;
+	z-index:999;
+}
+
+.wizard-bg .nav-tabs{
+	border-bottom:0px;
+}
+
+.wizard-bg{
+	height:150px;
+}
+	.wizard-bg .nav-tabs a i.how-step{
+	color:#fff;
+	background:#7C4A8C;
+	border-radius:50%;
+	display:inline-block;
+	width:70px;
+	height:70px;
+	border:4px solid #7C4A8C;
+	
+	line-height:60px;
+	font-size:30px;
+	font-weight:600;
+	font-style: normal;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	transition: all .2s ease;
+	overflow:hidden;
+			 text-shadow: rgb(88, 53, 99) 1px 1px,
+    rgb(88, 53, 99) 2px 2px,
+    rgb(89, 53, 100) 3px 3px,
+    rgb(89, 54, 100) 4px 4px,
+    rgb(90, 54, 101) 5px 5px,
+    rgb(90, 54, 102) 6px 6px,
+    rgb(91, 55, 102) 7px 7px,
+    rgb(92, 55, 103) 8px 8px,
+    rgb(92, 55, 104) 9px 9px,
+    rgb(93, 56, 104) 10px 10px,
+    rgb(93, 56, 105) 11px 11px,
+    rgb(94, 56, 106) 12px 12px,
+    rgb(94, 57, 106) 13px 13px,
+    rgb(95, 57, 107) 14px 14px,
+    rgb(96, 57, 108) 15px 15px,
+    rgb(96, 58, 108) 16px 16px,
+    rgb(97, 58, 109) 17px 17px,
+    rgb(97, 58, 110) 18px 18px,
+    rgb(98, 59, 110) 19px 19px,
+    rgb(98, 59, 111) 20px 20px,
+    rgb(99, 59, 112) 21px 21px,
+    rgb(100, 60, 112) 22px 22px,
+    rgb(100, 60, 113) 23px 23px,
+    rgb(101, 60, 113) 24px 24px,
+    rgb(101, 61, 114) 25px 25px,
+    rgb(102, 61, 115) 26px 26px,
+    rgb(102, 61, 115) 27px 27px,
+    rgb(103, 62, 116) 28px 28px,
+    rgb(104, 62, 117) 29px 29px,
+    rgb(104, 62, 117) 30px 30px,
+    rgb(105, 63, 118) 31px 31px,
+    rgb(105, 63, 119) 32px 32px,
+    rgb(106, 63, 119) 33px 33px,
+    rgb(106, 64, 120) 34px 34px,
+    rgb(107, 64, 121) 35px 35px,
+    rgb(108, 64, 121) 36px 36px,
+    rgb(108, 65, 122) 37px 37px,
+    rgb(109, 65, 123) 38px 38px,
+    rgb(109, 65, 123) 39px 39px,
+    rgb(110, 66, 124) 40px 40px,
+    rgb(110, 66, 125) 41px 41px,
+    rgb(111, 66, 125) 42px 42px,
+    rgb(112, 67, 126) 43px 43px,
+    rgb(112, 67, 126) 44px 44px,
+    rgb(113, 67, 127) 45px 45px,
+    rgb(113, 68, 128) 46px 46px,
+    rgb(114, 68, 128) 47px 47px,
+    rgb(114, 68, 129) 48px 48px,
+    rgb(115, 69, 130) 49px 49px,
+    rgb(116, 69, 130) 50px 50px,
+    rgb(116, 69, 131) 51px 51px,
+    rgb(117, 70, 132) 52px 52px,
+    rgb(117, 70, 132) 53px 53px,
+    rgb(118, 70, 133) 54px 54px,
+    rgb(118, 71, 134) 55px 55px,
+    rgb(119, 71, 134) 56px 56px,
+    rgb(120, 71, 135) 57px 57px,
+    rgb(120, 72, 136) 58px 58px,
+    rgb(121, 72, 136) 59px 59px,
+    rgb(121, 72, 137) 60px 60px,
+    rgb(122, 73, 138) 61px 61px,
+    rgb(122, 73, 138) 62px 62px,
+    rgb(123, 73, 139) 63px 63px,
+    rgb(124, 74, 140) 64px 64px;
+	-webkit-box-shadow: 3px 5px 0px rgba(0,0,0, .2) inset;
+		-moz-box-shadow: 3px 5px 0px rgba(0,0,0, .2) inset;
+			box-shadow: 3px 5px 0px rgba(0,0,0, .2) inset;
+} 
+
+	.wizard-bg .nav-tabs > li.active a{
+		padding-top:30px;
+	}
+ .wizard-bg .nav-tabs > li.active a i.how-step{
+	color:#fff;
+	background: #7C4A8C;
+	border-radius:50%;
+	display:inline-block;
+	width:90px;
+	height:90px;
+	/*border:5px solid #fff;*/
+	line-height:70px;
+	font-size:40px;
+	font-weight:600;
+	-webkit-box-shadow: 3px 5px 0px rgba(0,0,0, .25) inset, 4px 0px 0px rgba(0,0,0, .2);
+		-moz-box-shadow: 3px 5px 0px rgba(0,0,0, .25) inset, 4px 0px 0px rgba(0,0,0, .2);
+			box-shadow: 3px 5px 0px rgba(0,0,0, .25) inset, 4px 0px 0px rgba(0,0,0, .2);
+}  
+
+.wizard-bg .nav-tabs > li > a{
+	border:none;
+}
+.wizard-bg .nav-tabs > li > a:hover, .wizard-bg .nav-tabs > li.active > a, .wizard-bg .nav-tabs > li.active > a:hover, .wizard-bg .nav-tabs > li.active > a:focus{
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size:170%;
+}
+
+
+.wizard-bg{
+	background: url(images/wizard.png) center center no-repeat;
+	background-size:100% auto;
+}
+
+footer a{
+	color:rgba(250,250,250, .7);
+}
+
+	@media (max-width: 768px) {
+		.container{
+			padding-right:20px;
+			padding-left:20px;
+		}
+	}
+</style>
+
+
+
+<!-- FontAwesome icons -->
+<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+<!--[if lt IE 7]>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+	<![endif]-->
+    <!-- Fav and touch icons -->
+
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+</head>
+<!-- /HEAD-->
+  <body data-spy="scroll" data-target=".navbar">
+
+<nav id="topnav" class="navbar navbar-fixed-top navbar-default" role="navigation">
+		<div class="container">
+	  <!-- Brand and toggle get grouped for better mobile display -->
+	  <div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+		  <span class="sr-only">Toggle navigation</span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#"><img class="img-responsive" src="images/logo.png" alt="logo" ><!--BootLander BS 3.0. --></a>
+	  </div>
+
+	  <!-- Collect the nav links, forms, and other content for toggling -->
+	  <div class="collapse navbar-collapse navbar-ex1-collapse">
+		<ul class="nav navbar-nav navbar-right">
+		    <li class="active"><a href="#top-section">Home</a></li>
+			<li><a href="#Section-1">Section-1</a></li>
+			<li><a href="#Section-2">Section-2</a></li> 
+			<li><a href="#foot-sec">Footer</a></li>
+		</ul>
+	</div><!-- /.navbar-collapse --> 
+	</div>	
+</nav>
+
+   
+ <!-- HEADER -->  
+ <header id="top-section">
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div id="carousel-example-generic1" class="carousel slide">
+				 <!-- Indicators -->
+				  <ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+				  </ol>
+  
+		 <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+				<!-- item-->
+				<div class="item active">
+					<div class="row">
+							<!--  description-->
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pull-right text-center" style="padding-top:40px; margin-bottom:30px;" >
+								<h1 class="" >Big bold title here</h1>
+								<p class="lead" >Here goes sub-title heading
+								<small>This template built with Bootstrap 3.0. version.  </small></p>
+								<p><a class="btn btn-success btn-lg" href="#" title="">Sign up now!</a></p>
+							</div>
+							<!-- / description-->
+							<!--  IMAGE -->
+							<div class="text-left col-sm-6 col-lg-6">
+								<div class="img-negative-box" style="display:inline-block; margin-bottom:-150px;">
+									<img class="img-responsive"   src="images/browser.png" alt="browser" >
+								</div>
+							</div>
+							<!-- /  IMAGE -->
+					</div>
+				</div>
+				<!-- /item-->
+				
+				<!-- item-->
+				<div class="item">
+					<div class="row">
+							<!--  description-->
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pull-right text-center" style="padding-top:40px; margin-bottom:30px;" >
+								<h1 class="" >Big bold title here</h1>
+								<p class="lead" >Here goes sub-title heading
+								<small>This template built with Bootstrap 3.0. version.  </small></p>
+								<p><a class="btn btn-success btn-lg" href="#" title="">Sign up now!</a></p>
+							</div>
+							<!-- / description-->
+							<!--  IMAGE -->
+							<div class="text-left col-sm-6 col-lg-6">
+							
+								<div class="img-negative-box" style="display:inline-block; margin-bottom:-150px;">
+									<img class="img-responsive"   src="images/browser.png" alt="browser" >
+								</div>
+							</div>
+							<!-- /  IMAGE -->
+					</div>
+				</div>
+				<!-- /item-->
+				
+				<!-- item-->
+				<div class="item">
+					<div class="row">
+							
+							<!--  IMAGE -->
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+							<h1 class="" >Big bold title goes here</h1>
+								<p class="lead" >Here goes sub-title heading built with Bootstrap 3.0. version.  </p>
+								
+								<div class="img-negative-box" style="display:inline-block; margin-bottom:-228px;">
+									<img class="img-responsive"   src="images/browsers.png" alt="browsers" >
+								</div>
+							</div>
+							<!-- /  IMAGE -->
+					</div>
+				</div>
+				<!-- /item-->
+				
+			</div>
+		</div>
+				
+			
+			</div><!-- /ROW-->
+		</div>
+      </div>
+	</header>
+<!-- / HEADER -->
+
+
+<!--  SECTION-1 -->  
+<section id="Section-1">
+<div class="well" style="margin-top:30px; padding-top:30px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-info text-center">
+				 <i class="icon-mobile-phone icon-large icon-3x"></i>  <i class="icon-tablet icon-large icon-4x"></i> <i class="icon-desktop icon-large icon-4x"></i>
+				 <p>Works on any screens</p>
+			</div>			
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4  text-info text-center">
+				  <i class="icon-info-sign icon-large icon-2x"></i> <i class="icon-info-sign icon-large icon-3x"></i> <i class="icon-info-sign icon-large icon-4x"></i>
+				  <p>Information that helps you</p>
+			</div>			
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-info text-center">
+				 <ul class="list-unstyled" style="font-size:18px; line-height:30px;">
+					<li><i class="icon-check-sign"></i> Information means Data </li>
+					<li><i class="icon-check-sign"></i> Information means Data </li>
+					<li><i class="icon-check-sign"></i> Information means Data </li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		
+		
+	</div>
+</div>
+
+
+	<div class="container">
+	<div class="row">
+		<div class="col-12 col-lg-12 page-header page-header-custom text-center" style="margin-top:0px;">
+			<h2 class="text-info">WHY?</h2>
+			<h3>SOME IMPORTANT WORDS ABOUT PRODUCT</h3>
+		</div>
+	</div>
+	<div class="row bg-shine">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center text-info">
+				<i class="icon-time icon-large icon-2x text-info"></i> <i class="icon-comments-alt  icon-large icon-4x text-info"></i>
+				
+			</div>			
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4   text-center text-info">
+				<i class="icon-upload icon-large icon-2x text-info"></i> <i class="icon-group icon-large icon-4x text-info"></i> <i class=" text-info icon-info-sign icon-large icon-2x"></i>
+
+			</div>			
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center text-info">
+				<i class="icon-rocket icon-large icon-4x text-info"></i> 
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center ">
+				<p class="lead">Few <strong>important words</strong> Lorem ipsum dolor set amet </p></div>			
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4   text-center ">
+				<p class="lead">Few <strong>important words</strong> Lorem ipsum dolor set amet </p>
+			</div>			
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center ">
+				<p class="lead">Few <strong>important words</strong> Lorem ipsum dolor set amet </p>
+			</div>
+		</div>
+<hr>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+				<a class="btn btn-info btn-lg" href="#" title="">CALL TO ACTION BUTTON</a>
+			</div>
+		</div>
+</div><!-- / CONTAINER-->
+</section>
+
+<!-- / SECTION-1 -->
+
+<!-- SECTION-2 -->
+<section id="Section-2">
+
+<div class="well" style="margin-bottom:0px;">
+	<div class="container">
+	   <div class="row">
+			<div class="page-header text-center">
+				<h2 class="text-info">HOW?</h2>
+				
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wizard-bg">
+				<ul id="myTab" class="nav nav-tabs row">
+				<li class="col-xs-4 col-sm-4 col-md-4 col-lg-4 active text-center">
+					<a  href="#first" data-toggle="tab"><i class="how-step">1</i></a>
+				</li>
+				<li class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+					<a  href="#second" data-toggle="tab"><i class="how-step">2</i></a>
+				</li>
+				<li class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+					<a href="#third"  data-toggle="tab"><i class="how-step">3</i></a>
+				</li>
+			  </ul>
+			</div> 
+		</div>	
+	</div><!-- /.container -->
+</div><!-- /.well -->
+
+<div class="jumbotron">
+	<div class="container">
+
+   <div class="row">
+		<div class=" text-center col-sm-12 col-lg-12">
+			<div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="first">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pull-right" style="padding-top:40px;">
+					<h1 class="">Big bold title here</h1>
+					<p class="lead">Here goes sub-title heading
+					<small>This template built with Bootstrap 3.0. version.  </small></p>
+					<p><a class="btn btn-success btn-lg" href="#" title="">Sign up now!</a></p>
+				</div>
+				
+				<div class="text-left col-sm-6 col-lg-6">
+					<div class="img-negative-box" style="display:inline-block; ">
+						<img class="img-responsive" src="images/browser.png" alt="browser">
+					</div>
+					
+				</div>
+				
+
+				
+				
+			</div>
+		</div>
+        <div class="tab-pane fade" id="second">
+          <div class="row">
+				
+				<!--  FORM-->
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="padding-top:40px;">
+					<h1 class="">Big bold title here</h1>
+					<p class="lead">Here goes sub-title heading
+					<small>This template built with Bootstrap 3.0. version.  </small></p>
+					
+					<p><a class="btn btn-success btn-lg" href="#" title="">Sign up now!</a></p>
+				</div>
+				<!-- / FORM -->
+				<!--  description-->
+				<div class="text-left col-sm-6 col-lg-6">
+					<div class="img-negative-box" style="display:inline-block;">
+						<img class="img-responsive" src="images/browser.png" alt="browser">
+					</div>
+					
+				</div>
+				<!-- / description-->
+			</div>
+        </div>
+        <div class="tab-pane fade" id="third">
+          <div id="carousel-example-generic3" class="carousel slide">
+		 <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+				<!-- item-->
+				<div class="item active">
+					<div class="row">
+						
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									<img src="images/thumb.jpg" style="max-width:100%; height:auto;" alt="">
+									<h3>CASE TITLE GOES HERE</h3>
+									<p class="lead">Case description lead paragraph. Lorem ipsum dolor set amet.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									<img src="images/thumb.jpg" style="max-width:100%; height:auto;" alt="">
+									<h3>CASE TITLE GOES HERE</h3>
+									<p class="lead">Case description lead paragraph. Lorem ipsum dolor set amet.</p>
+								</div>
+							</div>
+						</div>
+						
+						
+					</div>
+				</div>
+				<!-- /item-->
+				
+				<!-- item-->
+				<div class="item">
+					<div class="row">
+						
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									<img src="images/thumb.jpg" style="max-width:100%; height:auto;" alt="">
+									<h3>CASE TITLE GOES HERE</h3>
+									<p class="lead">Case description lead paragraph. Lorem ipsum dolor set amet.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									<img src="images/thumb.jpg" style="max-width:100%; height:auto;" alt="">
+									<h3>CASE TITLE GOES HERE</h3>
+									<p class="lead">Case description lead paragraph. Lorem ipsum dolor set amet.</p>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<!-- /item-->
+				
+			</div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic3" data-slide="prev">
+			<span class="icon-prev"></span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic3" data-slide="next">
+			<span class="icon-next"></span>
+		  </a>
+		</div>
+        </div>
+      </div>
+		</div> 
+	</div>	
+</div><!-- /.container -->
+</div><!-- /.jumbotron -->
+
+	
+ </section> 
+ <!-- / SECTION-2 -->
+ 
+ <!-- SECTION-3 -->
+<section id="Section-3">
+<div class="container">
+<hr>
+	<div class="row">
+		<div class="page-header text-center col-sm-12 col-lg-12">
+			<h3>USERS CASES</h3>
+		</div> 
+	</div>	
+		<!-- ITEMS SLIDER -->
+	<div class="row">
+		<div id="carousel-example-generic2" class="carousel slide">
+		 <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+				<!-- item-->
+				<div class="item active">
+					<div class="row">
+						
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+							<img class="img-responsive" src="images/browser.png" alt="browser">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									
+									<h3>CASE TITLE GOES HERE</h3>
+									<p >Case description lead paragraph. Lorem ipsum dolor set amet.</p>
+								</div>
+								<div class="panel-footer">
+									<a class="btn btn-block btn-info" href="#">MORE INFO</a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+							<img class="img-responsive" src="images/browser.png" alt="browser">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									
+									<h3>CASE TITLE GOES HERE</h3>
+									<p >Case description lead paragraph. Lorem ipsum dolor set amet.</p>
+								</div>
+								<div class="panel-footer">
+									<a class="btn btn-block btn-info" href="#">MORE INFO</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+							<img class="img-responsive" src="images/browser.png" alt="browser">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									
+									<h3>CASE TITLE GOES HERE</h3>
+									<p >Case description lead paragraph. Lorem ipsum dolor set amet.</p>
+								</div>
+								<div class="panel-footer">
+									<a class="btn btn-block btn-info" href="#">MORE INFO</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+							<img class="img-responsive" src="images/browser.png" alt="browser">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									
+									<h3>CASE TITLE GOES HERE</h3>
+									<p >Case description lead paragraph. Lorem ipsum dolor set amet.</p>
+								</div>
+								<div class="panel-footer">
+									<a class="btn btn-block btn-info" href="#">MORE INFO</a>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<!-- /item-->
+				
+				<!-- item-->
+				<div class="item">
+					<div class="row">
+						
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+							<img class="img-responsive" src="images/browser.png" alt="browser">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									
+									<h3>CASE TITLE GOES HERE</h3>
+									<p >Case description lead paragraph. Lorem ipsum dolor set amet.</p>
+								</div>
+								<div class="panel-footer">
+									<a class="btn btn-block btn-info" href="#">MORE INFO</a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+							<img class="img-responsive" src="images/browser.png" alt="browser">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									
+									<h3>CASE TITLE GOES HERE</h3>
+									<p >Case description lead paragraph. Lorem ipsum dolor set amet.</p>
+								</div>
+								<div class="panel-footer">
+									<a class="btn btn-block btn-info" href="#">MORE INFO</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+							<img class="img-responsive" src="images/browser.png" alt="browser">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									
+									<h3>CASE TITLE GOES HERE</h3>
+									<p >Case description lead paragraph. Lorem ipsum dolor set amet.</p>
+								</div>
+								<div class="panel-footer">
+									<a class="btn btn-block btn-info" href="#">MORE INFO</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+							<img class="img-responsive" src="images/browser.png" alt="browser">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									
+									<h3>CASE TITLE GOES HERE</h3>
+									<p >Case description lead paragraph. Lorem ipsum dolor set amet.</p>
+								</div>
+								<div class="panel-footer">
+									<a class="btn btn-block btn-info" href="#">MORE INFO</a>
+								</div>
+							</div>
+						</div>
+										
+					</div>
+				</div>
+				<!-- /item-->
+				
+			</div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic2" data-slide="prev">
+			<span class="icon-prev"></span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic2" data-slide="next">
+			<span class="icon-next"></span>
+		  </a>
+		</div>
+	</div>
+	<!-- /.row-->
+	<!-- /ITEMS SLIDER -->
+</div>
+<div class="well" style="margin-top:30px; padding-top:30px; margin-bottom:40px;">
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12  text-center">
+				<div class="page-header">
+					<h3>WHAT PEOPLE SAY</h3>
+				</div>
+			</div>
+		</div>
+	
+	
+	<!-- TESTIMONIALS SLIDER -->
+	<div class="row">
+		<div id="carousel-example-generic" class="carousel slide">
+		 <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+			<div class="item active">
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center">
+					<img class="img-circle" src="images/avafour.jpg" alt="" width="80" height="80">
+					  <p><i class="icon-quote-left text-info"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					  <p> <small><strong>Someone famous in <cite title="Source Title">Source Title</cite></small></strong></p>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center">
+					<img class="img-circle" src="images/avafour.jpg" alt="" width="80" height="80">
+					  <p><i class="icon-quote-left text-info"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					  <p> <small><strong>Someone famous in <cite title="Source Title">Source Title</cite></small></strong></p>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center">
+					<img class="img-circle" src="images/avafour.jpg" alt="" width="80" height="80">
+					  <p><i class="icon-quote-left text-info"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					  <p> <small><strong>Someone famous in <cite title="Source Title">Source Title</cite></small></strong></p>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center">
+					<img class="img-circle" src="images/avafour.jpg" alt="" width="80" height="80">
+					  <p><i class="icon-quote-left text-info"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					  <p> <small><strong>Someone famous in <cite title="Source Title">Source Title</cite></small></strong></p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center">
+					<img class="img-circle" src="images/avafour.jpg" alt="" width="80" height="80">
+					  <p><i class="icon-quote-left text-info"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					  <p> <small><strong>Someone famous in <cite title="Source Title">Source Title</cite></small></strong></p>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center">
+					<img class="img-circle" src="images/avafour.jpg" alt="" width="80" height="80">
+					  <p><i class="icon-quote-left text-info"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					  <p> <small><strong>Someone famous in <cite title="Source Title">Source Title</cite></small></strong></p>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center">
+					<img class="img-circle" src="images/avafour.jpg" alt="" width="80" height="80">
+					  <p> <i class="icon-quote-left text-info"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					  <p> <small><strong>Someone famous in <cite title="Source Title">Source Title</cite></small></strong></p>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center">
+					<img class="img-circle" src="images/avafour.jpg" alt="" width="80" height="80">
+					  <p><i class="icon-quote-left text-info"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					  <p> <small><strong>Someone famous in <cite title="Source Title">Source Title</cite></small></strong></p>
+				</div>
+			</div>
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+			<span class="icon-prev"></span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+			<span class="icon-next"></span>
+		  </a>
+		</div>
+	</div>
+	<!-- /.row-->
+	<!-- /TESTIMONIALS SLIDER -->
+	</div>
+	<hr>
+	<div class="row">
+		<div class="text-center col-sm-12 col-lg-12">
+			<h4>SOME OF OUR AWESOME CLIENTS</h4>
+		</div> 
+	</div>
+</div>
+<div class="container">
+	
+			<div class="row text-center text-info">
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<div class="well">
+						<p><em>CLIENT LOGO</em></p>
+					</div>
+				</div>	
+				
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<div class="well">
+						<p><em>CLIENT LOGO</em></p>
+					</div>
+				</div>				
+				
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<div class="well">
+						<p><em>CLIENT LOGO</em></p>
+					</div>
+				</div>
+				
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<div class="well">
+						<p><em>CLIENT LOGO</em></p>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<div class="well">
+						<p><em>CLIENT LOGO</em></p>
+					</div>
+				</div>	
+				
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<div class="well">
+						<p><em>CLIENT LOGO</em></p>
+					</div>
+				</div>				
+				
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<div class="well">
+						<p><em>CLIENT LOGO</em></p>
+					</div>
+				</div>
+				
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<div class="well">
+						<p><em>CLIENT LOGO</em></p>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<div class="well">
+						<p><em>CLIENT LOGO</em></p>
+					</div>
+				</div>	
+				
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<div class="well">
+						<p><em>CLIENT LOGO</em></p>
+					</div>
+				</div>				
+				
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<div class="well">
+						<p><em>CLIENT LOGO</em></p>
+					</div>
+				</div>
+				
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					<div class="well">
+						<p><em>CLIENT LOGO</em></p>
+					</div>
+				</div>
+				
+			</div>
+	<hr>	
+</div><!-- / CONTAINER-->
+
+<div class="well well-lg" style="margin-bottom:-120px; padding-top:30px; padding-bottom:30px;">
+	<div class="container">
+		<div class="row">
+					<div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<p class="lead text-info"><strong>HERE GOES YOUR CALL TO ACTION SLOGAN! BUY OUR AWESOME PRODUCT RIGHT NOW!</strong></p>
+					   <p><a class="btn btn-lg btn-info" href="http://www.bootstraptor.com">BUY PRODUCT NOW!</a></p>
+					  
+					</div>
+		</div>
+	</div>
+</div>
+	
+</section> 
+ <!-- / SECTION-3 -->
+     
+<section id="Section-4">
+<div class="container">
+
+	  
+</div><!-- /.container-->
+</section>
+<!-- FOOTER -->
+    <footer id="foot-sec">
+		<div class="jumbotron">
+					   <p class="text-center"> <a class="" href="http://www.bootstraptor.com">© 2013 Built with www.bootstraptor.com</a></p>
+		</div>
+    </footer>
+<!-- / FOOTER -->
+   
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js" type="text/javascript"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+
+
+<!-- PAGE CUSTOM SCROLLER -->
+<script type="text/javascript" src="assets/js/jquery.nicescroll.min.js"></script>
+
+<script src="assets/js/jquery.parallax-1.1.3.js" type="text/javascript" ></script>
+<script src="assets/js/jquery.localscroll-1.2.7-min.js" type="text/javascript" ></script>
+<script src="assets/js/jquery.scrollTo-1.4.6-min.js" type="text/javascript" ></script>
+
+<!-- responsive video-->
+<script src="assets/js/jquery.fitvids.min.js" type="text/javascript"></script>
+<script>
+        // Basic FitVids Test
+        jQuery(".container").fitVids();
+          
+</script>
+<!-- / responsive video-->
+
+<script>
+jQuery(document).ready(function(){
+	jQuery('#topnav').localScroll({offset: {top:0}});
+	jQuery('#startbtn').localScroll(5000);
+	//.parallax(xPosition, speedFactor, outerHeight) options:
+	//xPosition - Horizontal position of the element
+	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+	//jQuery('#top-section').parallax("50%", 0.1);
+	//jQuery('#Section-1').parallax("50%", 0.3);
+	//jQuery('#Section-2').parallax("50%", 0.1);
+	//jQuery('#foot-sec').parallax("50%", 0.1);
+
+})
+</script>
+
+<script>
+//hide menu after click on mobile
+jQuery('.navbar .nav > li > a').click(function(){
+		jQuery('.navbar-collapse.navbar-ex1-collapse.in').removeClass('in').addClass('collapse').css('height', '0');
+
+		});
+</script>
+<!-- NICE Scroll plugin -->
+<!--<script>
+//scroll bar custom
+	jQuery(document).ready(
+  function() {  
+    jQuery("html").niceScroll({cursorcolor:"#333"});
+  }
+);
+</script>-->
+
+
+<!-- saved from url http://www.bootstraptor.com ==========================
+Don't remove this attribution!
+This template build on Bootstrap 3 Developer  Kit v.2.0. by @Bootstraptor
+Read usage license on http://www.bootstraptor.com 
+@BOOTSTRAPTOR TEMPLATE SUPORT:
+Support & commercial usage license contact: dogserega@gmail.com
+--------------------------------------------------------
+Bootstraptor 3.0. - templates - themes  - skins  
+ usage licenses here http://www.bootstraptor.com <==
+---------------------------------------------------------
+
+Uprgader 2.3.* => 3.0. service Bootstrap 3.0. online update service free http://bootstrap3.kissr.com/
+Update Bootstrap 2.3.* to Bootstrap 3.0. online http://bootstrap3.kissr.com/
+follow for templates updates & new releases on Twitter.com/Bootstraptor
+##########################################################################-->
+
+</body>
+</html>

@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<!-- saved from url http://www.bootstraptor.com ####################################################################
+Don't remove this attribution. 
+This template build on DevKit http://www.bootstraptor.com 
+##########################################################################
+-->
+<html lang="en">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Base page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+<!-- Latest compiled and minified CSS BS 3.0. 
+
+<link href="assets/css/themes/bootstrap-classic-plus-theme.css" rel="stylesheet">-->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/jquery.mCustomScrollbar.css" rel="stylesheet">
+<link href="assets/css/product.css" rel="stylesheet">
+
+<!-- GOOGLE FONT-->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700italic,700,500&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<!-- /GOOGLE FONT-->
+
+
+<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+
+<!--[if lt IE 7]>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+	<![endif]-->
+    <!-- Fav and touch icons -->
+
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+<body>
+
+<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+	<div class="container">
+	  <!-- Brand and toggle get grouped for better mobile display -->
+	  <div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+		  <span class="sr-only">Toggle navigation</span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="index.htm">YOURSITE.COM</a>
+	  </div>
+
+	  <!-- Collect the nav links, forms, and other content for toggling -->
+	  <div class="collapse navbar-collapse navbar-ex1-collapse">
+		<ul class="nav navbar-nav">
+		   <li><a href="#">Link 1</a></li>
+		  <li><a href="#">Link 2</a></li>
+		  <li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+			<ul class="dropdown-menu">
+			  <li><a href="index_category.htm">Category</a></li>
+			  <li><a href="product.htm">Product</a></li>
+			  <li><a href="cart.htm">Cart</a></li>
+			  <li><a href="checkout.htm">Checkout</a></li>
+			</ul>
+		  </li>
+		</ul>
+		 <ul class="nav navbar-nav navbar-right">
+             <a class="btn btn-success btn-sm navbar-btn" style="margin-left:10px;" href="#">Sign in</a>
+				<a class="btn btn-danger btn-sm navbar-btn"  href="#">Sign up</a>
+				<div class="btn-group ">
+					  <button class="btn btn-info navbar-btn btn-sm">En</button>
+					  <button class="btn dropdown-toggle navbar-btn btn-info btn-sm" data-toggle="dropdown">
+						<span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu" style="min-width:30px;">
+						<!-- dropdown menu links -->
+						<li><a href="">Ru</a></li>
+						<li><a href="">Fr</a></li>
+						<li><a href="">Es</a></li>
+						
+					  </ul>
+					</div>
+            </ul>
+		</div><!-- /.navbar-collapse --> 
+	</div>	
+</nav>
+	  
+	 
+
+    <!-- PAGE-HEADER-->
+	<div class="page-header" style="padding-top:20px;">
+		<div class="container">
+			<div class="row">
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 pull-right" style="z-index:1020 !important">
+				<ul class="nav nav-pills pull-right" style="width:100%;">
+					 <li class="dropdown active" style="width:100%;">
+						<a class="dropdown-toggle text-center" data-toggle="dropdown" href="#" style="width:100%;">
+							<i class="icon-shopping-cart"></i> Your Bag: $0.00 <i class="icon-caret-down"></i>
+						</a>
+						<ul class="dropdown-menu list-group pull-right dropdown-cart">
+							<li>
+								<a href="#" class="list-group-item active">
+								<h4 class="list-group-item-heading"><i class="icon-shopping-cart"></i> CART HEADING</h4>
+								<p class="list-group-item-text">Your Bag is empty </p>
+								</a>
+								<a href="#" class="list-group-item">
+								<span class="badge"><i class="icon-chevron-right"></i></span>
+								Product title here
+								</a>
+								<a href="#" class="list-group-item">
+								<span class="badge"><i class="icon-chevron-right"></i></span>
+								Product title here
+								</a>
+								<a href="#" class="list-group-item">
+								<span class="badge badge-danger">$14</span>
+								Product title here
+								</a>
+								<a href="#" class="list-group-item">
+								<span class="badge">$14</span>
+								Product title here Product 
+								</a>
+								<a class="btn btn-success navbar-btn" style="margin:5px; color:#fff;" >Proceed to checkout</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+						</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 visible-lg text-center">
+						<h1 style="margin-top:0px !important;">SHOP.COM</h1>
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="margin-bottom:10px;">
+					
+						<form class="form-search">
+							<div class="input-group">
+								<input type="text" class="form-control input-lg" placeholder="Search">
+								<span class="input-group-btn" >
+									<button type="submit" class="btn btn-primary btn-lg">Search</button>
+								</span>
+							</div>
+						</form>
+					</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<a href="http://www.bootstraptor.com">MAN</a> / <a href="http://www.bootstraptor.com">WOMAN</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<a href="http://www.bootstraptor.com">OFFER HERE</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-3 hidden-xs hidden-sm">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<a href="http://www.bootstraptor.com">OFFER HERE</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-3 hidden-xs hidden-sm">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<a href="http://www.bootstraptor.com">OFFER HERE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+      </div>
+</div>
+</div>
+<!-- /.page-header -->
+
+<!-- MAIN CONTAINER-->
+<div class="container">
+	<div class="row">
+	<!-- LEFT SIDE CATEGORIES-->   
+	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">         
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4>Shop by Product</h4>
+			</div>
+			<div class="panel-body">
+				<ul id="cat-navi" class="nav nav-list">
+				  <li class="active"><a href="#">Active category</a></li>
+				  <li><a href="#">New in: Category</a></li>
+				  <li><a href="#">New in: Category</a></li>
+				  <li><a href="#">New in: Category</a></li>
+				  <li><a href="#">New in: Category</a></li>
+				  <li><a href="#">New in: Category</a></li>
+				</ul>
+			</div>
+		</div>
+	
+		<div class="panel panel-default visible-lg">	
+			<div class="panel-heading">
+				<h4>Most Popular</h4>
+			</div>
+				<div class="panel-body">
+					<ul id="cat-navi2" class="nav nav-list ">
+					  <li class="active"><a href="#">Active category</a></li>
+					  <li><a href="#">Category title</a></li>
+					  <li><a href="#">Category title</a></li>
+					  <li><a href="#">Category title</a></li>
+					  <li><a href="#">Category title</a></li>
+					  <li><a href="#">Category title</a></li>
+					  <li><a href="#">Category title</a></li>
+					  <li><a href="#">Category title</a></li>
+					  <li><a href="#">Category title</a></li>
+					  <li><a href="#">Category title</a></li>
+					  <li><a href="#">Category title</a></li>
+					</ul>
+				</div>
+		</div>
+			
+			<!-- panel OFFER-->
+			<div class="visible-lg">
+				<div class="panel panel-success text-center">
+					<div class="panel-body">
+						<p class="lead"> SPECIAL OFFER DISCOUNT -20% </p>
+					</div>
+				</div>
+			</div>
+			<!-- / panel OFFER-->
+			
+			<!-- panel OFFER-->
+			<div class="visible-lg">
+				<div class="panel panel-success text-center">
+					<div class="panel-body">
+						<p class="lead"> SPECIAL OFFER DISCOUNT -20% </p>
+					</div>
+				</div>
+			</div>
+			<!-- / panel OFFER-->
+			
+			<!-- panel OFFER-->
+			<div class="visible-lg">
+				<div class="panel panel-success text-center">
+					<div class="panel-body">
+						<p class="lead"> SPECIAL OFFER DISCOUNT -20% </p>
+					</div>
+				</div>
+			</div>
+			<!-- / panel OFFER-->
+			
+			<!-- panel OFFER-->
+			<div class="visible-lg">
+				<div class="panel panel-success text-center">
+					<div class="panel-body">
+						<p class="lead"> SPECIAL OFFER DISCOUNT -20% </p>
+					</div>
+				</div>
+			</div>
+			<!-- / panel OFFER-->
+			
+	</div>
+	<!-- /left SIDE--> 
+	
+		<!-- CONTENT SIDE-->
+	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+		
+		<!-- SLIDER -->
+		<div class="row">
+			<div class="col-sm-12 col-lg-12">
+			<div id="myCarousel" class="carousel slide">
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                  <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="images/thumb.jpg" alt="post image">
+                  </div>
+                  <div class="item">
+                    <img src="images/thumb.jpg" alt="post image">
+                  </div>
+                  <div class="item">
+                    <img src="images/thumb.jpg" alt="post image">
+                    <div class="carousel-caption">
+                      <h4>Third Thumbnail label</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="icon-prev"></span></a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="icon-next"></span></a>
+              </div>
+			</div>
+		</div>
+		<!-- / SLIDER -->
+		<hr>
+		<!-- MARKETING LINE-->
+		<div class="row">
+			<div class="col-sm-12 col-lg-12">
+				<div class="panel panel-default">
+					<div class="panel-body">
+		
+						<div class="row">
+							<div class="col-sm-8 col-lg-8">
+								<p class="lead text-center">
+									YOUR RECENT MARKETING SLOGAN OR OFFER!
+								</p>
+							</div>
+							<div class="col-sm-4 col-lg-4">
+								<a class="btn btn-warning btn-lg btn-block" href="#">BUY NOW!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /MARKETING LINE-->
+		
+		<!-- FEATURED PRODUCTS -->
+<div class="articles-grid row">
+ <!-- ITEM -->
+ <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	<div class="thumbnail">
+        <!-- IMAGE CONTAINER-->
+        <img src="images/thumb.jpg" alt="post image">
+		<!--END IMAGE CONTAINER-->
+		<!-- CAPTION -->
+		<div class="caption">
+			<h3 class="">Featured product title</h3>
+			<p class="">This project presents beautiful style graphic &amp; design. Bootstraptor provides modern features</p>
+			<p>
+			<a class="" href="#" title="">Read more →</a>
+			</p>
+		</div> 
+		<!--END CAPTION -->
+	</div>
+<!-- END: THUMBNAIL -->
+</div>
+<!-- END ITEM -->
+
+<!-- ITEM -->
+ <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	<div class="thumbnail">
+        <!-- IMAGE CONTAINER-->
+        <img src="images/thumb.jpg" alt="post image">
+		<!--END IMAGE CONTAINER-->
+		<!-- CAPTION -->
+		<div class="caption">
+			<h3 class="">Featured product title</h3>
+			<p class="">This project presents beautiful style graphic &amp; design. Bootstraptor provides modern features</p>
+			<p>
+			<a class="" href="#" title="">Read more →</a>
+			</p>
+		</div> 
+		<!--END CAPTION -->
+	</div>
+<!-- END: THUMBNAIL -->
+</div>
+<!-- END ITEM -->
+
+</div>
+<!-- / FEATURED PRODUCTS -->
+
+	<!-- MARKETING LINE-->
+		<div class="row">
+			<div class="col-sm-12 col-lg-12">
+				<div class="panel panel-default">
+					<div class="panel-body">
+		
+						<div class="row">
+							<div class="col-sm-8 col-lg-8">
+								<p class="lead text-center">
+									YOUR RECENT MARKETING SLOGAN OR OFFER!
+								</p>
+							</div>
+							<div class="col-sm-4 col-lg-4">
+								<a class="btn btn-warning btn-lg btn-block" href="#">BUY NOW!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /MARKETING LINE-->
+		
+
+		<!-- MAIN PRODUCTS GRID-->
+	<div class="container-folio row">
+			
+				<!-- PROD GRID 
+				============================================================ -->
+				
+				<!-- PROD. ITEM -->
+				 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+					<div class="thumbnail">
+						<!-- IMAGE CONTAINER-->
+						<img src="images/thumb.jpg" alt="post image">
+						<!--END IMAGE CONTAINER-->
+						<!-- CAPTION -->
+						<div class="caption">
+						<h3 class="">Product title</h3>
+							<p class="">This project presents beautiful style graphic &amp; design. Bootstraptor provides modern features</p>
+							
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<p class="lead">$21.000</p>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<a class="btn btn-success btn-block" href="#">Add to cart</a>
+								</div>
+							</div>
+						</div> 
+						<!--END CAPTION -->
+					</div>
+					<!-- END: THUMBNAIL -->
+				</div>
+				<!-- PROD. ITEM -->
+				
+				<!-- PROD. ITEM -->
+				 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+					<div class="thumbnail">
+						<!-- IMAGE CONTAINER-->
+						<img src="images/thumb.jpg" alt="post image">
+						<!--END IMAGE CONTAINER-->
+						<!-- CAPTION -->
+						<div class="caption">
+						<h3 class="">Product title</h3>
+							<p class="">This project presents beautiful style graphic &amp; design. Bootstraptor provides modern features</p>
+							
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<p class="lead">$21.000</p>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<a class="btn btn-success btn-block" href="#">Add to cart</a>
+								</div>
+							</div>
+						</div> 
+						<!--END CAPTION -->
+					</div>
+					<!-- END: THUMBNAIL -->
+				</div>
+				<!-- PROD. ITEM -->
+				
+				<!-- PROD. ITEM -->
+				 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+					<div class="thumbnail">
+						<!-- IMAGE CONTAINER-->
+						<img src="images/thumb.jpg" alt="post image">
+						<!--END IMAGE CONTAINER-->
+						<!-- CAPTION -->
+						<div class="caption">
+						<h3 class="">Product title</h3>
+							<p class="">This project presents beautiful style graphic &amp; design. Bootstraptor provides modern features</p>
+							
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<p class="lead">$21.000</p>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<a class="btn btn-success btn-block" href="#">Add to cart</a>
+								</div>
+							</div>
+						</div> 
+						<!--END CAPTION -->
+					</div>
+					<!-- END: THUMBNAIL -->
+				</div>
+				<!-- PROD. ITEM -->
+				
+				<!-- PROD. ITEM -->
+				 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+					<div class="thumbnail">
+						<!-- IMAGE CONTAINER-->
+						<img src="images/thumb.jpg" alt="post image">
+						<!--END IMAGE CONTAINER-->
+						<!-- CAPTION -->
+						<div class="caption">
+						<h3 class="">Product title</h3>
+							<p class="">This project presents beautiful style graphic &amp; design. Bootstraptor provides modern features</p>
+							
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<p class="lead">$21.000</p>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<a class="btn btn-success btn-block" href="#">Add to cart</a>
+								</div>
+							</div>
+						</div> 
+						<!--END CAPTION -->
+					</div>
+					<!-- END: THUMBNAIL -->
+				</div>
+				<!-- PROD. ITEM -->
+				
+				<!-- PROD. ITEM -->
+				 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+					<div class="thumbnail">
+						<!-- IMAGE CONTAINER-->
+						<img src="images/thumb.jpg" alt="post image">
+						<!--END IMAGE CONTAINER-->
+						<!-- CAPTION -->
+						<div class="caption">
+						<h3 class="">Product title</h3>
+							<p class="">This project presents beautiful style graphic &amp; design. Bootstraptor provides modern features</p>
+							
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<p class="lead">$21.000</p>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<a class="btn btn-success btn-block" href="#">Add to cart</a>
+								</div>
+							</div>
+						</div> 
+						<!--END CAPTION -->
+					</div>
+					<!-- END: THUMBNAIL -->
+				</div>
+				<!-- PROD. ITEM -->
+				
+				<!-- PROD. ITEM -->
+				 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+					<div class="thumbnail">
+						<!-- IMAGE CONTAINER-->
+						<img src="images/thumb.jpg" alt="post image">
+						<!--END IMAGE CONTAINER-->
+						<!-- CAPTION -->
+						<div class="caption">
+						<h3 class="">Product title</h3>
+							<p class="">This project presents beautiful style graphic &amp; design. Bootstraptor provides modern features</p>
+							
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<p class="lead">$21.000</p>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<a class="btn btn-success btn-block" href="#">Add to cart</a>
+								</div>
+							</div>
+						</div> 
+						<!--END CAPTION -->
+					</div>
+					<!-- END: THUMBNAIL -->
+				</div>
+				<!-- PROD. ITEM -->
+				
+			
+				
+				<!-- / PROD GRID 
+				======================================= -->
+</div>
+<!-- /INNER ROW-->
+			<hr>
+<!-- PAGINATION-->
+<ul class="pagination pull-right">
+  <li><a href="#">&laquo;</a></li>
+  <li><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a href="#">&raquo;</a></li>
+</ul>
+<!-- /PAGINATION-->
+</div>
+<!-- /CONTENT SIDE-->
+	
+</div>
+</div>
+</div> <!-- /container -->
+<!-- FOOTER-->
+<footer class="">
+<div class="container">
+<div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+        <h4 class="line3 center standart-h4title"><span>Navigation</span></h4>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">project</a></li>
+          <li><a href="#">Elements</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+	  
+    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+        <h4 class="line3 center standart-h4title"><span>Useful Links</span></h4>
+        <ul class="footer-links">
+          <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+          <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+         <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+         <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+         <li><a href="http://www.bootstraptor.com">Bootstrap templates</a></li>
+        </ul>
+    </div> 
+	  
+    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+        <h4 class="line3 center standart-h4title"><span>Useful Links</span></h4>
+        <ul class="footer-links">
+          <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+          <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+		<li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+         <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+         <li><a href="http://www.bootstraptor.com">Bootstrap templates</a></li>
+        </ul>
+    </div>
+	
+    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+        <h4 class="line3 center standart-h4title"><span>Our office</span></h4>
+		<address>
+			<strong>bootstraptor.com, LLC.</strong><br>
+			<i class="fa-icon-map-marker"></i> 795 Folsom Ave, Suite 600<br>
+			San Francisco, CA 94107<br>
+			<i class="fa-icon-phone-sign"></i> + 4 (123) 456-7890
+		
+		</address>
+    </div> 
+</div>
+	<hr> 
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-lg-12 ">
+					<p>© bootstraptor.com Company 2013</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- /Footer-->
+
+
+
+
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.js" type="text/javascript"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+
+<script>
+/***************************************************
+responsive menu
+***************************************************/
+
+jQuery(function (jQuery) {
+    jQuery("#cat-navi").append("<select/>");
+	jQuery("#cat-navi select").addClass("form-control");
+    jQuery("<option />", {
+        "selected": "selected",
+        "value": "",
+        "text": "Choose category"
+    }).appendTo("#cat-navi select");
+    //new dropdown menu
+    jQuery("#cat-navi a").each(function () {
+        var el = jQuery(this);
+        var perfix = '';
+        switch (el.parents().length) {
+            case (11):
+                perfix = '-';
+                break;
+            case (13):
+                perfix = '--';
+                break;
+            default:
+                perfix = '';
+                break;
+
+        }
+        jQuery("<option />", {
+            "value": el.attr("href"),
+            "text": perfix + el.text()
+        }).appendTo("#cat-navi select");
+    });
+
+    jQuery('#cat-navi select').change(function () {
+
+        window.location.href = this.value;
+
+    });
+});
+
+</script>
+
+</body>
+</html>

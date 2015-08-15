@@ -1,0 +1,44 @@
+
+
+#slider-overflow-wrapper {
+    overflow: hidden;
+    position: relative;
+	height: 250px;
+}
+
+ul#slider {
+    list-style: none;
+    margin: 0;
+    width: 1972px;
+    height: 250px;
+    margin-left: -200px;
+}
+
+ul#slider li {
+    float: left;
+    width: 493px;
+    height: 250px;
+    position: relative;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+ul#slider li:not(.active) {
+    opacity: 0.4;
+}
+
+#slider-overflow-wrapper a.prevbtn {
+    position: absolute;
+    top: 119px;  
+    left: 28%;
+    
+}
+
+#slider-overflow-wrapper a.nextbtn {
+    position: absolute;
+    top: 119px;
+    left: 66%;
+
+    
+}

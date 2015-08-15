@@ -1,0 +1,5 @@
+Change log:
+
+08/06/2013:
+- Move to Boottsrap 3.0. version => CSS + JS + HTML now supported BS 3.0. RC1
+
