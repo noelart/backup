@@ -1,0 +1,5 @@
+This ZIP archive contains copies of the first three chapters of the Ruby on Rails Tutorial, 2nd Edition, as PDF, EPUB, and MOBI files.
+
+For technical reasons, it's harder to produce partial books than the full book,* so these sample files are made by hand. As a result, the sample books are sometimes a little out of date. Rest assured that the contents of books purchased from railstutorial.org are generated automatically from the book's source and are always fully up to date. 
+
+*For example, to make the sample PDF I have to produce the full book and then slice out a few chapters by hand using a PDF manipulator. Unfortunately, producing a partial book using only the source for the first few chapters doesn't work because in that case the cross-references aren't calculated correctly. Someday I hope to automate this process, but for now I have to do it by hand.

@@ -1,0 +1,81 @@
+/* #Media Queries
+================================================== */
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width:768px) and (max-width:959px) {
+	.fade figcaption a {
+		margin-top: 55px;
+	}
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width:767px) {
+	.nav select {
+		display: block;
+		width: 80%;
+		margin: 5px auto;
+	}
+
+	.nav ul {
+		display: none;
+	}
+
+	.code-content h1 {
+		margin: 70px 0 0;
+	}
+
+	#dev-overlay-content a {
+		margin-top: 50px;
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width:480px) and (max-width:767px) {
+	.fade figcaption a {
+		margin-top: 27%;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width:479px) {
+	#dev-overlay-content a {
+		margin-top: 0px;
+	}
+}
+
+/* Additional large screens 1280+ */
+@media only screen and (min-width:1280px) {
+}
+
+/* Specific styles applied to 767+ */
+@media only screen and (min-width:1025px) {
+	body {
+		font-size: 1em; /* 18px / 16px */
+		line-height: 1.7em;
+	}
+
+	header.band {
+		padding: 10% 0 12% 0;
+		background-image: url(../images/coding-bg.jpg);
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+
+	header.band h1 {
+		font-size: 80px;
+	}
+
+	a.button {
+		padding: .90em 1.5em .80em;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	.iconhov:hover {
+		opacity: 0.5; top: -4px;
+	}
+	.skillset:hover, .portfolio-boxes:hover {
+		background-color: #fff; top: -4px;
+	}
+}

@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+/*CSS styles*/
+
+body{
+    background: url(../images/bg.jpg) repeat-x;
+    font: 1em/1.2em 'proxima_novaregular', Arial, Helvetica, sans-serif;
+    color: #a3a3a3;
+    padding: 0;
+    margin: 0;
+}
+
+/*nav bar*/
+
+.navbar{
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+    height: 100px;
+    width: 100%;
+    display: block;
+    background-color: #000;
+}
+
+.navbar2{
+    top: 100px;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+    height: 40px;
+    display: block;
+    background-color: #2e1410;
+}
+
+.logo{
+    float: left;
+    margin: 25px 0;
+    padding: 0;
+}
+
+.tagline{
+    float: right;
+    font: 1.4em 'museo_slab500', Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    color: #ed9300;
+    margin: 45px 0;
+    padding: 0;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    float: left;
+    margin: 10px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0;
+    margin: 0 0 0 20px;
+}
+
+nav ul li a{
+    font: 1em 'proxima_novaregular', Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid #fa3;
+}
+
+/*Our work*/
+
+#hero{
+    width: 960px;
+    height: 600px;
+    background-color: #000;
+    margin: 0;
+    position: absolute;
+    z-index: 9;
+    margin: 160px 0 0px;
+}
+
+#main{
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    -webkit-border-radius: 250px;
+    background: #fc3;
+    color: #000;
+    text-align: center;
+    margin: 200px 230px 80px;
+    position: relative;
+    z-index: 10;
+}
+
+#main h1{
+    padding: 120px 20px;
+    font: 3em/1.2em uppercase 'museo_slab500', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#main span a{
+    padding: 20px 0 0;
+    font: 0.6em 'proxima_novaregular', Arial, Helvetica, sans-serif;
+    color: #000;
+    margin: 0;
+    text-decoration: none;
+}
+
+#main span a:hover{
+    color: #fff;
+}
+
+section h2{
+    float: left;
+    font: 1.8em 'proxima_novaregular', Arial, Helvetica, sans-serif;
+    color: #000;
+    margin: 40px 0 10px;
+    padding: 0;
+}
+
+section p{
+    float: left;
+    font: 1em/1.4em 'proxima_novaregular', Arial, Helvetica, sans-serif;
+    color: #000;
+    margin: 20px 0;
+    padding: 0;
+}
+
+/*Testimonials*/
+
+.banner_yellow{
+    width: 100%;
+    height: 300px;
+    margin: 80px 0;
+    background-color: #ffffcc;
+}
+
+.banner_white{
+    width: 100%;
+    margin: 80px 0;
+    background-color: #fff;
+}
+
+.banner_white img{
+    float: right;
+    margin: 60px 0 180px;
+    padding: 0;
+    
+}
+
+/*Footer*/
+.clearfooter {
+    height: 80px;
+    clear: both;
+    display: block;
+}
+
+footer {
+    margin: 0 -8px -8px;
+    height: 300px;
+    background-color: #000;
+    color: #fff;
+}
+
+footer h4{
+    font: 1.2em 'proxima_novasemibold', Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 30px 0 10px;
+    padding: 0;
+}
+
+footer p{
+    float: left;
+    font: 0.8em/1.4em 'proxima_novaregular', Arial, Helvetica, sans-serif;
+    margin: 0 0 20px;
+}
+
+footer p a{
+    color: #08c;
+    text-decoration: none;
+}
+
+footer p a:hover{
+    border-bottom: 1px dotted #08c;
+}
+
+footer p.copy{
+    float: left;
+    font: 0.8em/1.8em 'proxima_novaregular', Arial, Helvetica, sans-serif;
+    margin: 50px 0 0 70px;
+}
+
+footer input[type="search"]{
+    float: left;
+    width: 221px;
+    height: 41px;
+    border: 2px solid #c1c1c1;
+    outline: 0;
+    -webkit-appearance: none;
+}
+
+footer input[type="submit"]{
+    float: left;
+    width: 41px;
+    height: 41px;
+    background-color: #fff;
+    border: 2px solid #c1c1c1;
+    margin: 0 0 0 27px;
+    font: 1em/1.5em 'proxima_novaregular', Arial, Helvetica, sans-serif;
+    color: #777;
+}
+
+footer ul{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+
+footer ul.nav li{
+    float: left;
+    width: 150px;
+    margin: 0 0 5px;
+    padding: 0;
+}
+
+footer ul.nav li a{
+    text-decoration: none;
+    color: #08c;
+    font: 0.8em/1.2em 'proxima_novasemibold', Arial, Helvetica, sans-serif;
+}
+
+footer ul.nav li a:hover{
+    border-bottom: 1px dotted #08c;
+}
+
+footer ul.social{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+
+footer ul.social li{
+    float: left;
+    width: 150px;
+    margin: 5px 0 5px;
+    padding: 0;
+}
+
+
+footer ul.social li a{
+    font: 0.8em/1.2em 'proxima_novasemibold', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #b5b5b5;
+}
+
+footer ul.social li a:hover{
+    color: #fff;
+}
+
+footer img{
+    float: right;
+    margin: 10px 0;
+}

@@ -1,0 +1,479 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+
+/*======================
+      Basic Css
+========================*/
+
+body {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	position: absolute;
+}
+
+
+#wrapper {
+	background: #FFF6E5;
+	width: 9404px;
+	height: 650px;
+}
+
+
+#scene01, #scene02, #scene03 {
+	float: left;
+	height: 650px;
+	position: relative;
+	bottom: 0;
+}
+
+/*========================
+      Scene 01
+===========================*/
+
+#scene01 {
+	background: url(../assets/scene_01.gif) no-repeat left bottom;
+	width: 3872px;
+}
+
+.full-machine{
+	left: 600px;
+	top: 290px;
+	position: relative;
+}
+
+.base-layer{
+	left: 0;
+	top: 0;
+	z-index: 10;
+	position: absolute;
+}
+
+/* Animation layers */
+
+.animation-layer {
+	z-index: 4;
+	position: absolute;
+}
+
+.instructions {
+	left: -190px;
+	top: 100px;
+	width: 241px;
+	height: 191px;
+}
+
+.machine-lever {
+	left: 692px;
+	top: 500px;
+	z-index: 20;
+	position: absolute;
+	overflow: hidden;
+	width: 42px;
+	height: 84px;
+	padding-left: 10px;
+}
+
+.machine-lever > img:hover {
+	cursor: pointer;
+}
+
+.red-bar {
+	background: #EEE;
+	width: 150px;
+	left: 232px;
+	top: 250px;
+}
+
+
+.teal-bar {
+	background: #EEE;
+	width: 150px;
+	left: 232px;
+	top: 204px;
+}
+
+
+.bulbs {
+	width: 48px;
+	height: 25px;
+	position: absolute;
+	z-index: 19;
+	left: 270px;
+}
+
+.bulb-teal, .bulb-red {
+	top: 5px;
+	z-index: 20;
+	position: absolute;
+	border-radius: 50%;
+	width: 13px;
+	height: 14px;
+}
+
+.bulb-teal {
+	left: 30px;
+}
+
+.bulb-red {
+	left: 5px;
+}
+
+.machine-bellows {
+	left: 435px;
+	top: 210px;
+	overflow: hidden;
+}
+
+.wavelet {
+	left: 200px;
+	top: 130px;
+	width: 200px;
+	overflow: hidden;
+}
+
+.bulb-glow-red {
+	border-radius: 50%;
+  -webkit-box-shadow: 0 0 10px rgba(244, 74, 25, 0.8);
+  -moz-box-shadow: 0 0 10px rgba(244, 74, 25, 0.8);
+  box-shadow: 0 0 10px rgba(244, 74, 25, 0.8);
+}
+
+.bulb-glow-teal {
+	border-radius: 50%;
+  -webkit-box-shadow: 0 0 10px rgba(13,215,181, 0.8);
+  -moz-box-shadow: 0 0 10px rgba(13,215,181, 0.8);
+  box-shadow: 0 0 10px rgba(13,215,181, 0.8);
+}
+
+.yellow-glow {
+	border-radius: 20%;
+  -webkit-box-shadow: 0px 0px 159px 25px rgba(194,161,31,0.8);
+  -moz-box-shadow: 0px 0px 159px 25px rgba(194,161,31,0.8);
+  box-shadow: 0px 0px 159px 25px rgba(194,161,31,0.8);
+}
+
+.orange-glow {
+  -webkit-box-shadow: 10px 10px 30px 10px rgba(194,101,21,0.6);
+  -moz-box-shadow: 0px 0px 30px 10px rgba(194,101,21,0.6);
+  box-shadow: 0px 0px 30px 10px rgba(194,101,21,0.6);
+}
+
+.water {
+	top: 145px;
+	left: 520px;
+	width: 260px;
+	height: 150px;
+	overflow: hidden;
+	z-index: 5;
+}
+
+.water img {
+	right: 50px;
+	top: 5px;
+	position: relative;
+}
+
+/* Background layers */
+
+.conveyor-layer {
+	z-index: 1;
+	position: absolute;
+}
+
+.background-layer{
+	z-index: 2;
+	position: absolute;
+}
+
+.machine01-backdrop {
+	left: 200px;
+	top: 100px;
+}
+
+.machine02-backdrop {
+	left: 552px;
+	top: 89px;
+}
+
+.machine03-bakcdrop {
+	left: 1590px;
+	top: 78px;
+}
+
+.machine04-backdrop {
+	left: 2600px;
+	top: 84px;
+}
+
+
+/*========================
+      Machine 02
+===========================*/
+
+
+.gifts-unwrapped {
+	top: 158px;
+	left: 650px;
+	width: 1000px;
+	max-height: 72px;
+	overflow: hidden;
+	vertical-align: bottom;
+}
+
+.gift {
+	float: left;
+	padding-right: 4em;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.gifts-wrapped {
+	top: 150px;
+	left: 1600px;
+	width: 1000px;
+	max-height: 107px;
+	overflow: hidden;
+	vertical-align: bottom;
+}
+
+.clouds {
+	top: 80px;
+	left: 28px;
+	width: 1275px;
+	max-height: 220px;
+	overflow: hidden;
+}
+
+/*========================
+      Machine 03
+===========================*/
+
+.bulb-yellow {
+	top: -5px;
+	left: 1654px;
+	z-index: 18;
+	position: absolute;
+}
+
+.bulb-orange {
+	top: -23px;
+	left: 2323px;
+	z-index: 20;
+	position: absolute;
+}
+
+.big-glow {
+	top: 10px;
+	left: 12px;
+	width: 20px;
+	height: 20px;
+	z-index: 10;
+	background: transparent;
+	position: absolute;
+	border-radius: 50%;
+}
+
+.small-glow {
+	width: 10px;
+	height: 10px;
+	z-index: 10;
+	background: transparent;
+	position: absolute;
+	border-radius: 50%;
+}
+
+.cog-rotation {
+	top: 70px;
+	left: 1580px;
+	width: 250px;
+	height: 100px;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+.cog-rotation > .gears {
+	padding-left: 0;
+}
+
+.cog-rotation > .gears li {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.cog-rotation > .gears li:first-child, li:last-child {
+	vertical-align: top;
+	margin-top: 0;
+}
+
+.counter {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-weight: 700;
+	font-size: 4.0em;
+	top: -180px;
+	left: 2270px;
+	height: 100px;
+	width: 109px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.5);
+	letter-spacing: -0.05em;
+}
+
+.progress-bar {
+	border: 3pt solid rgba(255, 255, 255, 0.8);
+	width: 109px;
+	height: 27px;
+	top: -100px;
+	left: 2270px;
+	overflow: hidden;
+}
+
+.teal-bar {
+	background: #EEE;
+	width: 150px;
+	left: 232px;
+	top: 204px;
+}
+
+
+/*====================
+			Machine 04
+======================*/
+
+.xray {
+	top: 120px;
+	left: 2590px;
+	width: 300px;
+	max-height: 150px;
+	overflow: hidden;
+}
+
+
+.clearfix {
+	clear: both;
+}
+
+
+/*====================
+			Scene 02
+======================*/
+#scene02 {
+	background: url(../assets/scene_02.gif) no-repeat left bottom;
+	width: 2060px;
+}
+
+.window-frames{
+	left: 365px;
+	top: 80px;
+	position: relative;
+}
+
+.scenery-backdrop {
+	left: 46px;
+	top: 20px;
+}
+
+.scenery-backdrop ul {
+	float: left;
+}
+
+.scenery-backdrop ul li {
+	float: left;
+	padding-right: 17.6em;
+}
+
+
+/*====================
+			Scene 03
+======================*/
+
+#scene03 {
+	background: url(../assets/scene_03.gif) no-repeat left bottom;
+	width: 3472px;
+}
+
+.gathering {
+	left: 300px;
+	top: 60px;
+	width: 1600px;
+	position: relative;
+	height: 580px;
+}
+
+.elves {
+	left: 400px;
+	top: 220px;
+}
+
+.santa {
+	left: 1000px;
+	top: 120px;
+}
+
+.pole-left, .pole-right  {
+	top: 60px;
+	left: 0;
+	float: left;
+}
+
+.pole-right {
+	left: 1500px;
+}
+
+.bauble-front {
+	left: 1200px;
+	top: -60px;
+}
+
+
+/*====================
+			end scene
+======================*/
+
+.greeting {
+	left: 2000px;
+	top: 20px;
+	text-align: center;
+}
+
+.greeting .list li {
+	padding-bottom: 3.5em;
+}
+
+.greeting .list li:nth-child(n+2) {
+	opacity: 0;
+}

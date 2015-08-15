@@ -1,0 +1,326 @@
+@charset"UTF-8";
+/*css stylesheet*/
+
+body{
+    height: 100%;
+    background: url(../images/wood_tex.jpg) repeat-x;
+}
+
+/*Nav bar*/
+.navbar-inner {
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+    height: 70px;
+    width: 100%;
+    display: block;
+    background-color: #000;
+}
+
+header img{
+    float: left;
+    margin: 10px 0;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    float: left;
+    margin: 30px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    float: left;
+    margin: 0 35px 0 0;
+}
+
+nav ul li a{
+    font: 16px/1.2em 'museo_slab500', Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #ffffbb;
+}
+
+/*Banner*/
+.banner{
+    float: left;
+    width: 100%;
+    height: 469px;
+    margin: 120px 0 30px;
+    overflow: none;
+}
+
+.banner h1{
+    font: 2.6em/1.1em 'museo_slab500', Arial, Helvetica, sans-serif;
+    color: #394045;
+    margin: 15px 0;
+}
+
+.banner p{
+    font: 1em/1.2em 'museo_slab300', Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 0;
+    margin: 0 0 35px;
+}
+
+.banner ul{
+    width: 100%;
+    height: 469px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.banner ul li{
+    margin: 0;
+    padding: 0;
+}
+
+.bannernav{
+    float: left;
+    width: 97%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.bannernav a{
+    margin: 0 3px;
+    width: 16px;
+    height: 16px;
+    background: #394045;
+    overflow: hidden;
+    text-indent: 60px;
+    float: none;
+    display: inline-block;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.bannernav a.activeSlide{
+    background-color: #f26c4f;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font: 1.5em Tahoma, Verdana, sans-serif;
+    color: #fff; 
+    background: #3b88d8;
+    background: -moz-linear-gradient(0% 100% 90deg, #377ad0, #52a8e8);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#52a8e8), to(#377ad0));
+    border-top: 1px solid #4081af;
+    border-right: 1px solid #2e69a3;
+    border-bottom: 1px solid #20559a;
+    border-left: 1px solid #2e69a3;
+    -moz-box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3;
+    -moz-border-radius: 5px;
+    -webkit-box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3;
+    -webkit-border-radius: 5px;
+    text-shadow: 0 -1px 1px #3275bc;
+}
+
+button:hover {
+    background: #2a81d7;
+    background: -moz-linear-gradient(0% 100% 90deg, #206bcb, #3e9ee5);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3e9ee5), to(#206bcb));
+    border-top: 1px solid #2a73a6;
+    border-right: 1px solid #165899;
+    border-bottom: 1px solid #07428f;
+    border-left: 1px solid #165899;
+    -moz-box-shadow: inset 0 1px 0 0 #62b1e9;
+    -webkit-box-shadow: inset 0 1px 0 0 #62b1e9;
+    cursor: pointer;
+    text-shadow: 0 -1px 1px #1d62ab;
+}
+
+button:active {
+    background: #3282d3;
+    border: 1px solid #154c8c;
+    border-bottom: 1px solid #0e408e;
+    -moz-box-shadow: inset 0 0 6px 3px #1657b5, 0 1px 0 0 #fff;
+    -webkit-box-shadow: inset 0 0 6px 3px #1657b5, 0 1px 0 0 #fff;
+    text-shadow: 0 -1px 1px #2361a4;
+}
+
+/*Content*/
+
+
+section.content h2{
+    float: left;
+    font: 1.8em/1.6em 'museo_slab500', Arial, Helvetica, sans-serif;
+    color: #394045;
+    width: 100%;
+    display: inline-block;
+    margin: 40px 0 0;
+    padding: 0;
+}
+
+section.content p{
+    float: left;
+    font: 0.9em/1.5em 'museo_slab300', Arial, Helvetica, sans-serif;
+    color: black;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+section.content p a{
+    font: 0.9em/1.5em 'museo_slab300', Arial, Helvetica, sans-serif;
+    color: #08c;
+    text-decoration: none;
+}
+
+section.content p a:hover{
+    border-bottom: 1px dotted #08c;
+}
+
+.content .holder{
+    float: right;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 0 10px 0;
+}
+
+.content .holder img{
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+}
+
+.content .holder a.plus{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background: #000;
+    opacity: 0.5;
+    z-index: 9;
+    background: url(../images/button_grey.png) center center no-repeat #000;
+}
+
+/*Footer*/
+.clearfooter {
+    height: 80px;
+    clear: both;
+    display: block;
+}
+
+footer {
+    margin: 0 -8px -8px;
+    height: 300px;
+    background-color: #000;
+    color: #fff;
+}
+
+footer h4{
+    font: 1.2em 'museo_slab500', Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 30px 0 10px;
+    padding: 0;
+}
+
+footer p{
+    float: left;
+    font: 0.7em/1.4em 'museo_slab300', Arial, Helvetica, sans-serif;
+    margin: 0 0 20px;
+}
+
+footer p a{
+    color: #08c;
+    text-decoration: none;
+}
+
+footer p a:hover{
+    border-bottom: 1px dotted #08c;
+}
+
+footer p.copy{
+    float: right;
+    font: 0.7em/1.4em 'museo_slab300', Arial, Helvetica, sans-serif;
+    margin: 40px 0 0;
+}
+
+footer input[type="search"]{
+    float: left;
+    width: 221px;
+    height: 41px;
+    border: 2px solid #c1c1c1;
+    outline: 0;
+    -webkit-appearance: none;
+}
+
+footer input[type="submit"]{
+    float: left;
+    width: 41px;
+    height: 41px;
+    background-color: #fff;
+    border: 2px solid #c1c1c1;
+    margin: 0 0 0 27px;
+    font: 1em/1.5em 'museo_slab300', Arial, Helvetica, sans-serif;
+    color: #777;
+}
+
+footer ul{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+
+footer ul.nav li{
+    float: left;
+    width: 150px;
+    margin: 0 0 5px;
+    padding: 0;
+}
+
+footer ul.nav li a{
+    text-decoration: none;
+    color: #08c;
+    font: 0.7em/1.4em 'museo_slab300', Arial, Helvetica, sans-serif;
+}
+
+footer ul.nav li a:hover{
+    border-bottom: 1px dotted #08c;
+}
+
+footer ul.social{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+
+footer ul.social li{
+    float: left;
+    width: 150px;
+    margin: 5px 0 5px;
+    padding: 0;
+}
+
+
+footer ul.social li a{
+    font: 0.8em/1.4em 'museo_slab300', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #b5b5b5;
+}
+
+footer ul.social li a:hover{
+    color: #fff;
+}
+

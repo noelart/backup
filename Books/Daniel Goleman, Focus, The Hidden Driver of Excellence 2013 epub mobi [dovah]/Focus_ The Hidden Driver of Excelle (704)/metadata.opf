@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">704</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">8e284e43-0ad3-47cb-baec-3b3845fbdb4d</dc:identifier>
+        <dc:title>Focus: The Hidden Driver of Excellence</dc:title>
+        <dc:creator opf:file-as="Goleman, Daniel" opf:role="aut">Daniel Goleman</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (1.8.0) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2013-09-30T17:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;&lt;h3&gt;Review&lt;/h3&gt;&lt;p&gt;“Daniel Goleman has surpassed himself in the breadth, depth, and readability ofthis fascinating meditation on what is most important for human, organizational, andplanetary flourishing. Focusshows us how to go about paying attention in all the ways that really matter.” (Jon Kabat-Zinn, founder of Mindfulness-Based Stress Reductionand author of Mindfulness for BeginnersJon Kabat-Zinn, founder of Mindfulness-Based Stress Reductionand author of Mindfulness for BeginnersJon Kabat-Zinn, founder of Mindfulness-Based St)  &lt;/p&gt;&lt;p&gt;“I’ve been studying attention for more than a decade, but I learned something new on every page of Focus. It is a powerful guide for taking control of our attention and will lead you to nothing less than taking control of your life.” (Tony Schwartz, author of &lt;em&gt;The Power of Full Engagement&lt;/em&gt; and CEO of The Energy Project)  &lt;/p&gt;&lt;p&gt;“With compelling insights, wide-ranging examples, and cutting-edge science, Daniel Goleman makes the convincing case that the ability to focus is a key to excellence, in both our personal and professional lives-and also explains how to boost that focus.” (Gretchen Rubin, bestselling author of &lt;em&gt;The Happiness Project&lt;/em&gt;)  &lt;/p&gt;&lt;p&gt;“Attention is so important that ordinary people take it for granted, while scientists subject it to microanalysis. Steering deftly between these extremes, Dan Goleman synthesizes what is known and what we need to know.” (Howard Gardner, John H. and Elisabeth A. Hobbs Professor of Cognitionand Education at the Harvard Graduate School of EducationHoward Garnder, John H. and Elizabeth A. Hobbs Professor of Cognition and Education at the Harvard Graduate School of Educati)  &lt;/p&gt;&lt;p&gt;“Daniel Goleman has written the perfect prescription for today’s deficit of attention in business and life....Highly recommended!” (Chip Conley, founder of Joie de Vivre Hospitality and author of &lt;em&gt;Peak&lt;/em&gt; and &lt;em&gt;Emotional Equations&lt;/em&gt;)  &lt;/p&gt;&lt;p&gt;“Goleman has provided a highly readable manifesto for turning our smartphones off once in a while.” (Financial Times) &lt;/p&gt;&lt;h3&gt;About the Author&lt;/h3&gt;&lt;p&gt;Daniel Goleman, a former science journalist for the &lt;em&gt;New York Times&lt;/em&gt;, is the author of thirteen books and lectures frequently to professional groups and business audiences and on college campuses. He cofounded the Collaborative for Academic, Social and Emotional Learning at the Yale University Child Studies Center (now at the University of Illinois at Chicago). He lives in Massachusetts.&lt;/p&gt;&lt;/div&gt;</dc:description>
+        <dc:publisher>Harper</dc:publisher>
+        <dc:identifier opf:scheme="MOBI-ASIN">50ab7ef6-83d8-4dce-8b7f-024c067ffbd6</dc:identifier>
+        <dc:identifier opf:scheme="AMAZON">0062295292</dc:identifier>
+        <dc:identifier opf:scheme="GOOGLE">FycRmwEACAAJ</dc:identifier>
+        <dc:identifier opf:scheme="ISBN">9780062295293</dc:identifier>
+        <dc:identifier opf:scheme="GOODREADS">18698850</dc:identifier>
+        <dc:language>eng</dc:language>
+        <dc:subject>Business &amp; Economics</dc:subject>
+        <dc:subject>General</dc:subject>
+        <dc:subject>Psychology</dc:subject>
+        <meta content="{&quot;Daniel Goleman&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="6" name="calibre:rating"/>
+        <meta content="2013-11-04T09:24:41.058000+00:00" name="calibre:timestamp"/>
+        <meta content="Focus: The Hidden Driver of Excellence" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>
